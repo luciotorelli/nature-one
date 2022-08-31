@@ -9,23 +9,28 @@ body {
 
 }
 
+/* Beggining of header */
+
 header {
     background-color: #1B5E20;
 }
 
 #logo img {
-    width: 10%;
+    width: 160px;
     float: left;
-    margin-left: 20px;
+    margin: 10px 0 10px 20px;
 }
 
 #navbar {
     text-align: right;
-    height: 50px;
+    height: 80px;
 }
 
 #navbar li {
     display: inline;
     margin-right: 20px;
+    line-height: 80px;
+    color: #F6F6EC;
 }
 
+/* End of header */
