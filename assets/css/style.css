@@ -1,0 +1,31 @@
+/* Give full control over margin, padding and border on all elements*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+
+}
+
+header {
+    background-color: #1B5E20;
+}
+
+#logo img {
+    width: 10%;
+    float: left;
+    margin-left: 20px;
+}
+
+#navbar {
+    text-align: right;
+    height: 50px;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
