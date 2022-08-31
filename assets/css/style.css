@@ -9,7 +9,7 @@ body {
 
 }
 
-/* Beggining of header */
+/* Header */
 
 header {
     background-color: #1B5E20;
@@ -18,18 +18,18 @@ header {
 #logo img {
     width: 160px;
     float: left;
-    margin: 10px 0 10px 30px;
+    margin: 15px 0 10px 30px;
 }
 
 #navbar {
     text-align: right;
-    height: 80px;
+    height: 90px;
 }
 
 #navbar li {
     display: inline;
     margin-right: 20px;
-    line-height: 80px;
+    line-height: 90px;
     color: #F6F6EC;
 }
 
@@ -37,6 +37,7 @@ header {
     color: #F6F6EC;
     text-decoration: none;
     padding: 10px;
+    font-size: 16px;
 }
 
 #navbar li a:hover {
@@ -47,6 +48,13 @@ header {
 }
 
 
+/* End Header */
 
+/* How to order section */
 
-/* End of header */
+#how-to-order h2 {
+    text-align: center;
+    margin: 10px
+}
+
+/* How order section */
