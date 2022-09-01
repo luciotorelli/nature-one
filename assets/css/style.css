@@ -125,5 +125,46 @@ header {
 /* Vitamins Section */
 
 #vitamins {
-    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #1B5E20;
+}
+
+.right-image {
+    background-color: #1B5E20;
+    color:#f6f6ec;
+}
+
+.left-image {
+    background-color: #f6f6ec;
+}
+
+.right-image > div {
+    padding: 100px;
+}
+
+.left-image > div {
+    padding: 100px;
+    text-align: end;
+}
+
+.right-image h2 {
+    font-size: 50px;
+}
+
+.left-image h2 {
+    font-size: 50px;
+}
+
+#vitamins img {
+    height: 30%;
+    width: 30%;
+}
+
+.outer-vitamin-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
