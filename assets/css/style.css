@@ -104,16 +104,30 @@ header {
 
 /* Vitamins Section */
 
+#vitamins {
+    background: url("/assets/images/hazel-vitamin-background.jpg");
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 #vitamins img {
     width: 10%;
     display: inline;
 }
 
-#vitamin-left h2 {
-    float: left;
-    
+#vitamins h2 {
+    width: 10%;
+    display: inline;
 }
 
-#vitamin-right h2 {
+.vitamin-left h2 {
+    float: left;    
+}
+
+.vitamin-right h2 {
     float: right;
 }
