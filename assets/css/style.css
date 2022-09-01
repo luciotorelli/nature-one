@@ -132,7 +132,7 @@ header {
 }
 
 .right-image {
-    background-color: #1B5E20;
+    background-color: #003300;
     color:#f6f6ec;
 }
 
@@ -141,25 +141,35 @@ header {
 }
 
 .right-image > div {
-    padding: 100px;
+    padding: 2vw 20vw 2vw 5vw;
 }
 
 .left-image > div {
-    padding: 100px;
+    padding: 2vw 5vw 2vw 20vw;
     text-align: end;
 }
 
 .right-image h2 {
-    font-size: 50px;
+    font-size: 3vw;
+    border-bottom: 1px solid #f6f6ec
 }
 
 .left-image h2 {
-    font-size: 50px;
+    font-size: 3vw;
+    border-bottom: 1px solid #000
+}
+
+.right-image p {
+    font-size: 1.3vw;
+}
+
+.left-image p {
+    font-size: 1.3vw;
 }
 
 #vitamins img {
-    height: 30%;
-    width: 30%;
+    height: 25%;
+    width: 25%;
 }
 
 .outer-vitamin-div {
