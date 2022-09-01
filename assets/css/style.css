@@ -111,7 +111,7 @@ header {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     text-align: center;
     display: inline-block;
     padding: 20px;
@@ -131,14 +131,17 @@ header {
     background-color: #f6f6ec;
 }
 
-.vitamin-left {   
-    background-color: rgb(3, 47, 83);
+#vitamins div {
+    display: flex;
+    align-items: center;
     width: 30%;
     margin: 0 auto;
 }
 
+.vitamin-left {
+    background-color: rgb(3, 47, 83);
+}
+
 .vitamin-right {
     background-color: rgb(246, 246, 236);
-    width: 30%;
-    margin: 0 auto;
 }
