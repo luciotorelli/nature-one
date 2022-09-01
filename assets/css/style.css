@@ -107,27 +107,38 @@ header {
 #vitamins {
     background: url("/assets/images/hazel-vitamin-background.jpg");
     width: 100%;
-    height: 400px;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #vitamins img {
-    width: 10%;
+    width: 100px;
     display: inline;
 }
 
 #vitamins h2 {
-    width: 10%;
+    width: 400px;
+    line-height: 30px;
     display: inline;
+    text-align: center;
+    background-color: #f6f6ec;
 }
 
-.vitamin-left h2 {
-    float: left;    
+.vitamin-left {   
+    background-color: rgb(3, 47, 83);
+    width: 30%;
+    margin: 0 auto;
 }
 
-.vitamin-right h2 {
-    float: right;
+.vitamin-right {
+    background-color: rgb(246, 246, 236);
+    width: 30%;
+    margin: 0 auto;
 }
