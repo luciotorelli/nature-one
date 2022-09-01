@@ -51,7 +51,11 @@ header {
 
 #how-to-order {
     background-color: #f6f6ec;
-    padding: 20px 5%;
+    padding: 20px 15%;
+}
+
+#how-to-order p {
+    padding: 10px 20px;
 }
 
 #how-to-order h2 {
@@ -73,6 +77,7 @@ header {
 
 #step-one {
     border-left: 6px solid #032F53;
+    float: left;
 }
 
 #step-two {
