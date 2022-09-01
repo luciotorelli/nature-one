@@ -1,3 +1,6 @@
+/* Import Google Font Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 /* Give full control over margin, padding and border on all elements*/
 * {
     margin: 0;
@@ -6,7 +9,7 @@
 }
 
 body {
-
+    font-family: Open Sans, sans-serif;
 }
 
 /* Header */
@@ -51,7 +54,7 @@ header {
 
 #how-to-order {
     background-color: #f6f6ec;
-    padding: 20px 15%;
+    padding: 20px 16%;
 }
 
 #how-to-order p {
@@ -72,19 +75,23 @@ header {
     display: inline-block;
     width: 32%;
     text-align: center;
+    margin-top: 20px;
 
 }
 
 #step-one {
-    border-left: 6px solid #032F53;
     float: left;
+    padding: 2px;
+    border-left: 6px solid #032F53;
 }
 
 #step-two {
     border-left: 6px solid #032F53;
     border-right: 6px solid #032F53;
+    padding: 2px;
 }
 
 #step-three {
+    padding: 2px;
     border-right: 6px solid #032F53;
 }
