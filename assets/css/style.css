@@ -101,3 +101,19 @@ header {
 .how-to-icon {
     font-size: 30px;
 }
+
+/* Vitamins Section */
+
+#vitamins img {
+    width: 10%;
+    display: inline;
+}
+
+#vitamin-left h2 {
+    float: left;
+    
+}
+
+#vitamin-right h2 {
+    float: right;
+}
