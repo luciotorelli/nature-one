@@ -107,68 +107,6 @@ header {
     font-size: 30px;
 }
 
-/* Vitamins Section */
-
-#vitamins {
-    background-image: url("../images/vitamin-background.jpg");
-    width: 100%;
-    height: 100px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-#vitamins img {
-    width: 200px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#vitamins h2 {
-    width: 400px;
-    line-height: 30px;
-    display: inline;
-    text-align: center;
-    background-color: transparent;
-}
-
-.vitamin-left,
-.vitamin-right {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    margin: 0 auto;
-    height: 200px;
-    border-radius: 15px;
-    justify-content: space-between;
-    margin: 10px;
-}
-
-.vitamin-left {
-    background-color: #3A5880;
-}
-
-.vitamin-right {
-    background-color: rgb(246, 246, 236);
-}
-
-.inner-vitamin-div {
-    width: 100%;
-    height: 100%;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-}
 
 /* Hero Image Vitamin */
 
@@ -184,6 +122,8 @@ header {
     box-sizing: border-box;
 }
 
-#test-div {
-    height: 1000px
+/* Vitamins Section */
+
+#vitamins {
+    
 }
