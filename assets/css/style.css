@@ -110,7 +110,7 @@ header {
 /* Vitamins Section */
 
 #vitamins {
-    background-image: url("assets/images/vitamin-background.jpg");
+    background-image: url("../images/vitamin-background.jpg");
     width: 100%;
     height: 100px;
     background-attachment: fixed;
@@ -173,7 +173,7 @@ header {
 /* Hero Image Vitamin */
 
 #hero-vitamin {
-    background-image: url("assets/images/vitamin-background.jpg");
+    background-image: url("../images/vitamin-background.jpg");
     width: 100%;
     height: 300px;
     background-attachment: fixed;
