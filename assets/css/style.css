@@ -78,29 +78,34 @@ header {
     font-weight: 200;
 }
 
-#how-to-order div {
-    display: inline-block;
-    width: 32%;
+#steps {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     text-align: center;
-    margin-top: 20px;
-
+    margin 20px auto;
 }
 
 #step-one {
-    float: left;
     padding: 2px;
     border-left: 6px solid #032F53;
+    flex-grow: 1;
+    min-width: 33%;
 }
 
 #step-two {
     border-left: 6px solid #032F53;
     border-right: 6px solid #032F53;
     padding: 2px;
+    flex-grow: 1;
+    min-width: 33%;
 }
 
 #step-three {
     padding: 2px;
     border-right: 6px solid #032F53;
+    flex-grow: 1;
+    min-width: 33%;
 }
 
 .how-to-icon {
