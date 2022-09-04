@@ -221,5 +221,13 @@ header {
 /* Reasons to choose us */
 
 #reasons {
+    height: 900px;   
+}
+
+#reasons-text {
+
+}
+
+#reasons-image {
     
 }
