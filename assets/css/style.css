@@ -51,6 +51,12 @@ header {
     font-weight: 600;
 }
 
+#order-now:hover {
+    color: #032F53;
+    border: solid 1px #F6F6EC;
+    background-color: #F6F6EC;
+}
+
 #navbar {
     margin: auto 30px auto 30px;
     height: 100%;
@@ -63,6 +69,7 @@ header {
     margin-right: 20px;
     color: #F6F6EC;
     list-style-type: none;
+    font-weight: 500;
 }
 
 #navbar li a {
@@ -73,8 +80,8 @@ header {
 }
 
 #navbar li a:hover {
-    border: solid 1px #003300;
-    background-color: #003300;
+    border: solid 1px #032F53;
+    background-color: #032F53;
     padding: 10px;
     border-radius: 12px;
 }
