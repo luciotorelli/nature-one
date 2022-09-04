@@ -204,12 +204,12 @@ header {
     margin: 10px;
 }
 
-/* Hero Image Vitamin */
+/* Scrollable Image 1 */
 
-#hero-vitamin {
+#scrollable-image-1 {
     background-image: url("../images/vitamin-background.jpg");
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
