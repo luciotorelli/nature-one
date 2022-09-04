@@ -144,15 +144,15 @@ header {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin: 30px 10vw;
+    margin: 30px 22vw;
 }
 
 .right-image > div {
-    padding: 2vw 15vw 2vw 2vw;
+    padding: 2vw 15vw 2vw 0vw;
 }
 
 .left-image > div {
-    padding: 2vw 2vw 2vw 15vw;
+    padding: 2vw 0vw 2vw 15vw;
     text-align: end;
 }
 
@@ -166,8 +166,8 @@ header {
 }
 
 #vitamins img {
-    height: 20%;
-    width: 20%;
+    height: 22%;
+    width: 22%;
     border-radius: 30px;
 }
 
@@ -176,6 +176,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin: 10px;
 }
 
 /* Hero Image Vitamin */
