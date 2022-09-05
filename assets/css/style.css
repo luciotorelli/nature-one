@@ -226,7 +226,7 @@ header {
     flex-direction: row;   
 }
 
-#reasons-text {
+#inner-div-reasons {
     width: 40%;
     color: #f6f6ec;
     background-color: #032F53;
@@ -236,4 +236,10 @@ header {
     height: auto;
     width: 60%;
     object-fit: cover;
+}
+
+.outer-div-reasons {
+    width: 40%;
+    color: #f6f6ec;
+    background-color: #032F53;
 }
