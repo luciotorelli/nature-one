@@ -5,7 +5,7 @@
 
 ## Table of Contents
 ___
- 1. Project Summary
+ 1. Overview
  2. User Stories
  3. Features
     * Implemented
@@ -22,3 +22,9 @@ ___
     * 8.1 Gitpod
     * 8.2 Github pages
  9.  Credits
+
+<br>
+
+ ## Overview
+ ___
+ Nature one is a subscription based service for building a personalised multivitamin created from natural ingredients that is delivered to your door.
