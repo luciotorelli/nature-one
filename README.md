@@ -52,15 +52,49 @@ ___
 
 <details>
    <summary>Desktop</summary>
-   <img src=""
-     alt="Nature 1 - Project Logo"
-     width="200px" />
+   
+   *  <details>
+         <summary>Home</summary>
+            <img src="wireframing/desktop-home.png" alt="Wireframing for desktop home page" width="800px" />
+      </details>
+
+   *  <details>
+         <summary>Order Now</summary>
+            <img src="wireframing/desktop-ordernow.png" alt="Wireframing for desktop order now page" width="800px" />
+      </details>
+
+   *  <details>
+         <summary>Shipping</summary>
+            <img src="wireframing/desktop-shipping.png" alt="Wireframing for desktop shipping page" width="800px" />
+      </details>
+
+   *  <details>
+         <summary>About Us</summary>
+            <img src="wireframing/desktop-aboutus.png" alt="Wireframing for desktop about us page" width="800px" />
+      </details>            
 </details>
 
 <details>
    <summary>Mobile</summary>
-   <img src=""
-     alt="Nature 1 - Project Logo"
-     width="200px" />
+      
+   *  <details>
+         <summary>Home</summary>
+            <img src="wireframing/mobile-home.png" alt="Wireframing for mobile home page" width="800px" />
+      </details>
+
+   *  <details>
+         <summary>Order Now</summary>
+            <img src="wireframing/mobile-ordernow.png" alt="Wireframing for mobile order now page" width="800px" />
+      </details>
+
+   *  <details>
+         <summary>Shipping</summary>
+            <img src="wireframing/mobile-shipping.png" alt="Wireframing for mobile shipping page" width="800px" />
+      </details>
+
+   *  <details>
+         <summary>About Us</summary>
+            <img src="wireframing/mobile-aboutus.png" alt="Wireframing for mobile about us page" width="800px" />
+      </details>
 </details>
 
