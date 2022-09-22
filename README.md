@@ -46,3 +46,21 @@ ___
  * The website is responsive and adaptable for Mobile, Desktop and in-between screens. 
  * The layout and design displays the sense of a natural and modern product. 
 
+ ## Wireframing: 
+  ___
+
+
+<details>
+   <summary>Desktop</summary>
+   <img src=""
+     alt="Nature 1 - Project Logo"
+     width="200px" />
+</details>
+
+<details>
+   <summary>Mobile</summary>
+   <img src=""
+     alt="Nature 1 - Project Logo"
+     width="200px" />
+</details>
+
