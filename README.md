@@ -12,11 +12,11 @@ ___
  1. [Overview](https://github.com/luciotorelli/nature-one#overview)
  2. [User Stories](https://github.com/luciotorelli/nature-one#user-stories)
  3. [Site Owner Goals](https://github.com/luciotorelli/nature-one#site-owner-goals)
- 4. Features
+ 4. Wireframes
+ 5. Typography and Color Scheme
+ 6. Features
     * Implemented
     * Future Features
- 5. Typography and Color Scheme
- 6. Wireframes
  7. Technologies used
  8. Testing
     * 7.1 Code validation
