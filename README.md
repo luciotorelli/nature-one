@@ -13,7 +13,7 @@ ___
  2. [User Stories](https://github.com/luciotorelli/nature-one#user-stories)
  3. [Site Owner Goals](https://github.com/luciotorelli/nature-one#site-owner-goals)
  4. [Wireframes](https://github.com/luciotorelli/nature-one#wireframes)
- 5. Typography and Color Scheme
+ 5. [Color Scheme and Typography](https://github.com/luciotorelli/nature-one#color-scheme-and-typography)
  6. Features
     * Implemented
     * Future Features
@@ -36,7 +36,9 @@ ___
  * Understand the business nature of the website on the first page.
  * Easily identify all existing pages within the website.
  * Quickly navigate to the order page for a seemless shopping experience. 
- * Critical information such as shipping, policies and about us accessible from the header.  
+ * Access to critical information such as shipping, policies and about us from the header.  
+
+<br>
 
  ## Site Owner Goals: 
   ___
@@ -45,6 +47,8 @@ ___
  * The website/business purpose is easily identifiable on the first page. 
  * The website is responsive and adaptable for Mobile, Desktop and in-between screens. 
  * The layout and design displays the sense of a natural and modern product. 
+
+<br>
 
  ## Wireframing: 
   ___
@@ -98,3 +102,15 @@ ___
       </details>
 </details>
 
+<br>
+
+## Color Scheme and Typography
+  ___
+
+<img src="color-scheme/color-scheme.png" alt="Wireframing for mobile about us page" width="800px" />
+
+
+* #577A59 and it's neighboring shades are used on the header/hero image as well as on complementary images and footer. 
+* #CBAD6D is used as an accent color for buttons and to highlight certain objects such as the multivitamin.
+* #032F53 is used as a secondary background color for some sections.
+* #F6F6EC is used as font color for dark backgrounds and as a primary background color for some sections. 
