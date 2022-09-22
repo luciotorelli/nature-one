@@ -2,6 +2,10 @@
 <img src="assets/images/logo.png"
      alt="Nature 1 - Project Logo"
      width="200px" />
+ 
+ ## Overview
+ ___
+ Nature one is a subscription based service for building a personalised multivitamin created from natural ingredients that is delivered to your door.
 
 ## Table of Contents
 ___
@@ -25,6 +29,3 @@ ___
 
 <br>
 
- ## Overview
- ___
- Nature one is a subscription based service for building a personalised multivitamin created from natural ingredients that is delivered to your door.
