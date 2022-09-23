@@ -255,3 +255,10 @@ header {
     width: 55%;
     object-fit: cover;
 }
+
+/* Footer */
+
+footer {
+    background-color: #577A59;
+    height: 10vw;
+}
