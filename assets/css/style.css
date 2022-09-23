@@ -43,8 +43,8 @@ header {
 #order-now {
     color: #F6F6EC;
     margin: auto 30px auto 30px;
-    border: solid 1px #032F53;
-    background-color: #032F53;
+    border: solid 1px #CBAD6D ;
+    background-color: #CBAD6D ;
     padding: 10px;
     border-radius: 12px;
     text-decoration: none;
@@ -53,7 +53,7 @@ header {
 }
 
 #order-now:hover {
-    color: #032F53;
+    color: #CBAD6D ;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
 }
@@ -81,8 +81,8 @@ header {
 }
 
 #navbar li a:hover {
-    border: solid 1px #032F53;
-    background-color: #032F53;
+    border: solid 1px #CBAD6D ;
+    background-color: #CBAD6D ;
     padding: 10px;
     border-radius: 12px;
 }
@@ -121,14 +121,14 @@ header {
 
 #step-one {
     padding: 2px;
-    border-left: 6px solid #032F53;
+    border-left: 6px solid #CBAD6D ;
     flex-grow: 1;
     min-width: 33%;
 }
 
 #step-two {
-    border-left: 6px solid #032F53;
-    border-right: 6px solid #032F53;
+    border-left: 6px solid #CBAD6D ;
+    border-right: 6px solid #CBAD6D ;
     padding: 2px;
     flex-grow: 1;
     min-width: 33%;
@@ -136,15 +136,15 @@ header {
 
 #step-three {
     padding: 2px;
-    border-right: 6px solid #032F53;
+    border-right: 6px solid #CBAD6D ;
     flex-grow: 1;
     min-width: 33%;
 }
 
 #order-now-2 {
     color: #F6F6EC;
-    border: solid 1px #032F53;
-    background-color: #032F53;
+    border: solid 1px #CBAD6D ;
+    background-color: #CBAD6D ;
     padding: 2px 4px;
     border-radius: 12px;
     text-decoration: none;
@@ -154,7 +154,7 @@ header {
 }
 
 #order-now-2:hover {
-    color: #032F53;
+    color: #CBAD6D ;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
 }
@@ -224,21 +224,21 @@ header {
 #reasons {
     display: flex;
     flex-direction: row;
-    background-color: #032F53;   
+    background-color: #CBAD6D ;   
 }
 
 #outer-div-reasons {
     height: 50vh;
     width: 55%;
     color: #f6f6ec;
-    background-color: #032F53;
+    background-color: #CBAD6D ;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .inner-div-reasons {
     color: #f6f6ec;
-    background-color: #032F53;
+    background-color: #CBAD6D ;
     margin: 2vw 6vw;
     text-align: justify;
 }
