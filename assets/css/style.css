@@ -223,24 +223,22 @@ header {
 
 #reasons {
     display: flex;
-    flex-direction: row;
-    background-color: #CBAD6D ;   
+    flex-direction: row;   
 }
 
 #outer-div-reasons {
     height: 50vh;
     width: 45%;
-    color: #f6f6ec;
-    background-color: #CBAD6D ;
+    color: #000;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .inner-div-reasons {
-    color: #f6f6ec;
-    background-color: #CBAD6D ;
-    margin: 2vw 6vw;
+    color: #000;
+    margin: 2vw 4vw;
     text-align: justify;
+    font-size: 1.2vw;
 }
 
 .inner-div-reasons h2 {
