@@ -40,7 +40,7 @@ header {
     margin: 15px 30px 10px 30px;
 }
 
-#order-now {
+#order-now-button {
     color: #000;
     margin: auto 30px auto 30px;
     border: solid 1px #CBAD6D ;
@@ -52,7 +52,7 @@ header {
     transition: 0.5s;
 }
 
-#order-now:hover {
+#order-now-button:hover {
     color: #000 ;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
@@ -141,7 +141,7 @@ header {
     min-width: 33%;
 }
 
-#order-now-2 {
+#order-now-button-2 {
     color: #000;
     border: solid 1px #CBAD6D ;
     background-color: #CBAD6D ;
@@ -153,7 +153,7 @@ header {
     white-space: nowrap;
 }
 
-#order-now-2:hover {
+#order-now-button-2:hover {
     color: #000 ;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
