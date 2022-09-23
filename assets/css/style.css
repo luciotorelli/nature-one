@@ -207,7 +207,7 @@ header {
     width: 100%;
     margin: 10px;
     border: 0px;
-    background-color: #CBAD6D;
+    background-color: rgba(203, 173, 109, 0.6);
     border-radius: 30px;
 }
 
