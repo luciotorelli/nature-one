@@ -229,11 +229,12 @@ header {
 
 #reasons {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row; 
+    height: 55vh;  
 }
 
 #outer-div-reasons {
-    height: 50vh;
+    height: 55vh;
     width: 45%;
     color: #000;
     display: grid;
@@ -256,7 +257,7 @@ header {
 }
 
 #reasons-video {
-    height: 50vh;
+    height: 55vh;
     width: 55%;
     object-fit: cover;
 }
