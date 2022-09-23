@@ -41,7 +41,7 @@ header {
 }
 
 #order-now {
-    color: #F6F6EC;
+    color: #000;
     margin: auto 30px auto 30px;
     border: solid 1px #CBAD6D ;
     background-color: #CBAD6D ;
@@ -53,7 +53,7 @@ header {
 }
 
 #order-now:hover {
-    color: #CBAD6D ;
+    color: #000 ;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
 }
@@ -74,7 +74,7 @@ header {
 }
 
 #navbar li a {
-    color: #F6F6EC;
+    color: #000;
     text-decoration: none;
     padding: 10px;
     font-size: 16px;
@@ -142,7 +142,7 @@ header {
 }
 
 #order-now-2 {
-    color: #F6F6EC;
+    color: #000;
     border: solid 1px #CBAD6D ;
     background-color: #CBAD6D ;
     padding: 2px 4px;
@@ -154,7 +154,7 @@ header {
 }
 
 #order-now-2:hover {
-    color: #CBAD6D ;
+    color: #000 ;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
 }
