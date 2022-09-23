@@ -231,6 +231,7 @@ header {
     display: flex;
     flex-direction: row; 
     height: 55vh;  
+    background-color: rgba(203, 173, 109, 0.35);
 }
 
 #outer-div-reasons {
