@@ -121,14 +121,14 @@ header {
 
 #step-one {
     padding: 2px;
-    border-left: 6px solid #000 ;
+    border-left: 4px solid #000 ;
     flex-grow: 1;
     min-width: 33%;
 }
 
 #step-two {
-    border-left: 6px solid #000 ;
-    border-right: 6px solid #000 ;
+    border-left: 4px solid #000 ;
+    border-right: 4px solid #000 ;
     padding: 2px;
     flex-grow: 1;
     min-width: 33%;
@@ -136,7 +136,7 @@ header {
 
 #step-three {
     padding: 2px;
-    border-right: 6px solid #000 ;
+    border-right: 4px solid #000 ;
     flex-grow: 1;
     min-width: 33%;
 }
@@ -229,7 +229,7 @@ header {
 
 #outer-div-reasons {
     height: 50vh;
-    width: 55%;
+    width: 45%;
     color: #f6f6ec;
     background-color: #CBAD6D ;
     display: grid;
@@ -248,8 +248,8 @@ header {
     text-decoration: underline;
 }
 
-#reasons-image {
+#reasons-video {
     height: 50vh;
-    width: 45%;
+    width: 55%;
     object-fit: cover;
 }
