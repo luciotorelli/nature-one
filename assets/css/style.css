@@ -230,12 +230,12 @@ header {
 #reasons {
     display: flex;
     flex-direction: row; 
-    height: 55vh;  
+    height: 65vh;  
     background-color: rgba(203, 173, 109, 0.35);
 }
 
 #outer-div-reasons {
-    height: 55vh;
+    height: 65vh;
     width: 45%;
     color: #000;
     display: grid;
@@ -244,21 +244,33 @@ header {
 
 .inner-div-reasons {
     color: #000;
-    margin: 4vmin 4vmax;
+    margin: 4vw;
     text-align: center;
     font-size: 1vmax;
 }
 
+.top-reasons {
+    margin: auto 2vw;
+    padding-top: 5vh;
+}
+
+.bottom-reasons {
+    margin: auto 2vw;
+    padding-bottom: 5vh;
+}
+
 .inner-div-reasons h2 {
     text-align: center;
+    font-size: 1.5em;
 }
 
 .inner-div-reasons p {
     margin-top: 1.5vh;
+    font-size: 1.1em;
 }
 
 #reasons-video {
-    height: 55vh;
+    height: 65vh;
     width: 55%;
     object-fit: cover;
 }
