@@ -261,4 +261,25 @@ header {
 footer {
     background-color: #577A59;
     height: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+    flex-grow: 1;
+    min-width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+#copyright {
+
+}
+
+#footer-contact-info {
+
+}
+
+#footer-social-media {
+
 }
