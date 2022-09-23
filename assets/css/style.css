@@ -236,9 +236,9 @@ header {
 
 .inner-div-reasons {
     color: #000;
-    margin: 2vw 4vw;
+    margin: 4vmin 4vmax;
     text-align: justify;
-    font-size: 1.2vw;
+    font-size: 1vmax;
 }
 
 .inner-div-reasons h2 {
