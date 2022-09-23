@@ -34,7 +34,7 @@ header {
     z-index: -5;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10% 40%;
+    background-position: 20% 60%;
 }
 
 #logo img {
@@ -173,7 +173,7 @@ header {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin: 30px 22vw;
+    margin: 30px 20vw;
 }
 
 .right-image > div {
@@ -328,4 +328,31 @@ footer div {
 
 #footer-social-media a {
     padding: 0.5em;
+}
+
+/* Screens up to 1200px */
+
+@media screen and (max-width: 1200px) {
+    
+    /* Header - Desktop 1200px */
+    #header-background {
+        height: 550px;
+        background-position: 10% 10%;
+    }
+    
+    /* How to order - Desktop 1200px */
+    #how-to-order {
+        padding: 20px 16%;
+        height: 400px;
+        margin-top: 40px;
+    }
+    /* Vitamins Section - Desktop 1200px */
+
+    #vitamins {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 30px 15vw;
+    }
+    
 }
