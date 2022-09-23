@@ -106,11 +106,21 @@ ___
 
 ## Color Scheme and Typography
   ___
+<br>
 
+### Color Scheme
+<br>
 <img src="color-scheme/color-scheme.png" alt="Wireframing for mobile about us page" width="800px" />
 
 
 * #577A59 and it's neighboring shades are used on the header/hero image as well as on complementary images and footer. 
-* #CBAD6D is used as an accent color for buttons and to highlight certain objects such as the multivitamin.
+* #CBAD6D is used as an accent color for buttons and to highlight certain objects such as the multivitamin on the hero image.
 * #032F53 is used as a secondary background color for some sections.
 * #F6F6EC is used as font color for dark backgrounds and as a primary background color for some sections. 
+
+### Typography
+___
+
+<br>
+
+[Open Sans](https://fonts.google.com/specimen/Open+Sans) was the choice for this project due to the flexibility, neutrality and friendly appearence. It helps the website to display well in any screen or font size while staying modern and appealing.  
