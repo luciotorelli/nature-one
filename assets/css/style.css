@@ -177,11 +177,11 @@ header {
 }
 
 .right-image > div {
-    padding: 2vw 15vw 2vw 0vw;
+    padding: 2vw 12vw 2vw 2vw;
 }
 
 .left-image > div {
-    padding: 2vw 0vw 2vw 15vw;
+    padding: 2vw 2vw 2vw 12vw;
     text-align: end;
 }
 
@@ -191,7 +191,7 @@ header {
 }
 
 .vitamin-description {
-    font-size: 1.1vw;
+    font-size: 0.8vw;
 }
 
 #vitamins img {
@@ -206,6 +206,9 @@ header {
     justify-content: space-between;
     width: 100%;
     margin: 10px;
+    border: 0px;
+    background-color: #CBAD6D;
+    border-radius: 30px;
 }
 
 /* Scrollable Image 1 */
