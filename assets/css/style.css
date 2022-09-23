@@ -301,5 +301,9 @@ footer div {
     list-style-type: none;
     font-size: 2vw;
     display: inline;
-    margin: 1em;
+    margin: 0.5em;
+}
+
+#footer-social-media a {
+    padding: 0.5em;
 }
