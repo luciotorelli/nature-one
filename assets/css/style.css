@@ -243,13 +243,12 @@ header {
 .inner-div-reasons {
     color: #000;
     margin: 4vmin 4vmax;
-    text-align: justify;
+    text-align: center;
     font-size: 1vmax;
 }
 
 .inner-div-reasons h2 {
     text-align: center;
-    text-decoration: underline;
 }
 
 .inner-div-reasons p {
@@ -260,6 +259,12 @@ header {
     height: 50vh;
     width: 55%;
     object-fit: cover;
+}
+
+/* Google Maps */
+
+#map {
+    margin-bottom: -10px;
 }
 
 /* Footer */
