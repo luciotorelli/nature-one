@@ -186,12 +186,12 @@ header {
 }
 
 #vitamins h2 {
-    font-size: 2.2vw;
+    font-size: 1.4em;
     border-bottom: 1px solid #000;
 }
 
 .vitamin-description {
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 #vitamins img {
@@ -246,7 +246,7 @@ header {
     color: #000;
     margin: 4vw;
     text-align: center;
-    font-size: 1vmax;
+    font-size: 0.9em;
     margin: auto 2vw;
 }
 
@@ -299,7 +299,7 @@ footer a:hover {
 }
 
 footer h2 {
-    font-size: 1.1vw;
+    font-size: 1em;
 }
 
 footer div {
@@ -310,17 +310,17 @@ footer div {
 }
 
 #copyright {
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 #footer-contact-info li {
     list-style-type: none;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 #footer-social-media li {
     list-style-type: none;
-    font-size: 2vw;
+    font-size: 2em;
     display: inline;
     margin: 0.5em;
 }
@@ -348,9 +348,6 @@ footer div {
     /* Vitamins Section - Desktop 1200px */
 
     #vitamins {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
         margin: 30px 15vw;
     }
 
@@ -359,26 +356,54 @@ footer div {
 /* Screens up to 1024px - Laptop */
 
 @media screen and (max-width: 1024px) {
-    
-    /* Header - Laptop 1200px */
-    #header-background {
-        height: 500px;
-        background-position: 40% 0%;
-    }
-    
-    /* How to order - Laptop 1200px */
-    #how-to-order {
-        padding: 20px 16%;
-        height: 400px;
-        margin-top: 40px;
-    }
-    /* Vitamins Section - Laptop 1200px */
 
+    /* Header - Desktop 1024px */
+    #header-background {
+        height: 550px;
+        background-position: 20% 60%;
+    }    
+    
+    /* How to order - Laptop 1024px */
+    #how-to-order {
+        padding: 5px 15%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    
+    /* Vitamins Section - Laptop 1024px */
     #vitamins {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
         margin: 30px 15vw;
+    }
+
+    /* Scrollable Image 1 - Laptop 1024px */
+    #scrollable-image-1 {
+        height: 200px;
+    }
+
+    /* Inner Div Reasons - Laptop 1024px */
+    .inner-div-reasons {
+        font-size: 0.8em;
+    }
+
+    /* Footer - Laptop 1024px */
+    footer h2 {
+        font-size: 0.9em;
+    }
+
+    #copyright {
+        font-size: 0.8em;
+    }
+    
+    #footer-contact-info li {
+        list-style-type: none;
+        font-size: 0.8em;
+    }
+    
+    #footer-social-media li {
+        list-style-type: none;
+        font-size: 1.5em;
+        display: inline;
+        margin: 0.5em;
     }
 
 }
