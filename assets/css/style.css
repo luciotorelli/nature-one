@@ -246,6 +246,10 @@ header {
     text-decoration: underline;
 }
 
+.inner-div-reasons p {
+    margin-top: 1.5vh;
+}
+
 #reasons-video {
     height: 50vh;
     width: 55%;
