@@ -14,8 +14,8 @@ ___
  3. [Site Owner Goals](https://github.com/luciotorelli/nature-one#site-owner-goals)
  4. [Wireframes](https://github.com/luciotorelli/nature-one#wireframes)
  5. [Color Scheme and Typography](https://github.com/luciotorelli/nature-one#color-scheme-and-typography)
- 6. Features
-    * Implemented
+ 6. [Features](https://github.com/luciotorelli/nature-one#features)
+    * Features
     * Future Features
  7. Technologies used
  8. Testing
@@ -108,7 +108,7 @@ ___
   ___
 <br>
 
-### Color Scheme
+1. ### Color Scheme
 <br>
 <img src="color-scheme/color-scheme.png" alt="Wireframing for mobile about us page" width="800px" />
 
@@ -118,9 +118,24 @@ ___
 * #032F53 is used as a secondary background color for some sections.
 * #F6F6EC is used as font color for dark backgrounds and as a primary background color for some sections. 
 
-### Typography
-___
-
 <br>
 
-[Open Sans](https://fonts.google.com/specimen/Open+Sans) was the choice for this project due to the flexibility, neutrality and friendly appearence. It helps the website to display well in any screen or font size while staying modern and appealing.  
+2. ### Typography
+
+   [Open Sans](https://fonts.google.com/specimen/Open+Sans) was the choice for this project due to the flexibility, neutrality and friendly appearence. It helps the website to display well in any screen or font size while staying modern and appealing.  
+
+## Features
+  ___
+<br>
+
+* ### Features
+   1. Landing Page - The landing page should provide the context on what is the website for, how to place an order and every page available. 
+   2. The first section should be a breakdown of how the natural vitamins are created/harvested. 
+   3. The second section provide the pros of hiring the service as well as a quick commercial about the company.
+   4. The footer presents a copyright notice, contact information and social media links. 
+   5. Secondary pages are split into two easily identifiable sections, header and footer. 
+   6. The order now page presents a form for the user to place their order. 
+
+* ### Future Features
+   1. Blinking animation on the Order Now! button
+   2. If required, create a new layout for medium screens such as tablets. 
