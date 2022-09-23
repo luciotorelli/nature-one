@@ -247,15 +247,14 @@ header {
     margin: 4vw;
     text-align: center;
     font-size: 1vmax;
+    margin: auto 2vw;
 }
 
 .top-reasons {
-    margin: auto 2vw;
     padding-top: 5vh;
 }
 
 .bottom-reasons {
-    margin: auto 2vw;
     padding-bottom: 5vh;
 }
 
@@ -330,7 +329,7 @@ footer div {
     padding: 0.5em;
 }
 
-/* Screens up to 1200px */
+/* Screens up to 1200px - Desktops */
 
 @media screen and (max-width: 1200px) {
     
@@ -354,5 +353,32 @@ footer div {
         flex-direction: column;
         margin: 30px 15vw;
     }
+
+}
+
+/* Screens up to 1024px - Laptop */
+
+@media screen and (max-width: 1024px) {
     
+    /* Header - Laptop 1200px */
+    #header-background {
+        height: 500px;
+        background-position: 40% 0%;
+    }
+    
+    /* How to order - Laptop 1200px */
+    #how-to-order {
+        padding: 20px 16%;
+        height: 400px;
+        margin-top: 40px;
+    }
+    /* Vitamins Section - Laptop 1200px */
+
+    #vitamins {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 30px 15vw;
+    }
+
 }
