@@ -8,6 +8,8 @@
     border: none;
 }
 
+/* Body */
+
 body {
     font-family: Open Sans, sans-serif;
     background-color: #f6f6ec;
@@ -265,6 +267,18 @@ footer {
     flex-direction: row;
 }
 
+footer a {
+    color:#000;
+}
+
+footer a:hover {
+    color:#CBAD6D;
+}
+
+footer h2 {
+    font-size: 1.1vw;
+}
+
 footer div {
     flex-grow: 1;
     min-width: 33%;
@@ -273,13 +287,17 @@ footer div {
 }
 
 #copyright {
-
+    font-size: 1vw;
 }
 
-#footer-contact-info {
-
+#footer-contact-info li {
+    list-style-type: none;
+    font-size: 1vw;
 }
 
-#footer-social-media {
-
+#footer-social-media li {
+    list-style-type: none;
+    font-size: 2vw;
+    display: inline;
+    margin: 1em;
 }
