@@ -121,14 +121,14 @@ header {
 
 #step-one {
     padding: 2px;
-    border-left: 6px solid #CBAD6D ;
+    border-left: 6px solid #000 ;
     flex-grow: 1;
     min-width: 33%;
 }
 
 #step-two {
-    border-left: 6px solid #CBAD6D ;
-    border-right: 6px solid #CBAD6D ;
+    border-left: 6px solid #000 ;
+    border-right: 6px solid #000 ;
     padding: 2px;
     flex-grow: 1;
     min-width: 33%;
@@ -136,7 +136,7 @@ header {
 
 #step-three {
     padding: 2px;
-    border-right: 6px solid #CBAD6D ;
+    border-right: 6px solid #000 ;
     flex-grow: 1;
     min-width: 33%;
 }
