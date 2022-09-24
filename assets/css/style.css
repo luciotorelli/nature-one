@@ -106,10 +106,6 @@ header {
     text-align: center;
     padding-bottom: 20px;
     font-size: 20px;
-}
-
-#how-to-order h3 {
-    padding-bottom: 10px;
     font-weight: 600;
 }
 
@@ -126,6 +122,9 @@ header {
     border-left: 4px solid #000 ;
     flex-grow: 1;
     min-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #step-two {
@@ -134,6 +133,9 @@ header {
     padding: 2px;
     flex-grow: 1;
     min-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #step-three {
@@ -141,6 +143,9 @@ header {
     border-right: 4px solid #000 ;
     flex-grow: 1;
     min-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #order-now-button-2 {
@@ -164,6 +169,7 @@ header {
 
 .how-to-icon {
     font-size: 30px;
+    padding-top: 15px;
 }
 
 
@@ -407,3 +413,108 @@ footer div {
     }
 
 }
+
+/* Screens up to 768px - Tablet */
+
+@media screen and (max-width: 768px) {
+
+    /* Header - - Tablet 768px */
+    #header-background {
+        height: 460px;
+    }    
+    
+    /* How to order section - Tablet 768px */
+
+    #how-to-order {
+        padding: 0px 16%;
+        height: 330px;
+        margin-top: 30px;
+    }
+
+    #how-to-order p {
+        padding: 5px 15px;
+        line-height: 22px;
+        font-size: 0.8em;
+    }
+
+    #how-to-order h2 {
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+    .how-to-icon {
+        font-size: 1.2em;
+    }
+
+    /* Vitamins Section - Tablet 768px */
+
+    #vitamins {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 20px 10vw;
+    }
+
+    .right-image > div {
+        padding: 2vw 10vw 2vw 2vw;
+    }
+
+    .left-image > div {
+        padding: 2vw 2vw 2vw 10vw;
+    }
+
+    #vitamins h2 {
+        font-size: 1.2em;
+        border-bottom: 1px solid #000;
+    }
+
+    .vitamin-description {
+        font-size: 0.9em;
+    }
+
+    /* Reasons to choose us - Tablet 768px  */
+
+    #reasons {
+        flex-direction: column; 
+        height: 130vh;  
+    }
+
+    #outer-div-reasons {
+        height: 65vh;
+        width: 100%;
+    }
+
+    .top-reasons {
+        padding-top: 0.5vh;
+    }
+
+    .bottom-reasons {
+        padding-bottom: 5vh;
+    }
+
+    #reasons-video {
+        height: 65vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* Footer - Tablet 768px  */
+
+    footer h2 {
+        font-size: 0.8em;
+    }
+
+    #copyright {
+        font-size: 0.6em;
+    }
+
+    #footer-contact-info li {
+        font-size: 0.7em;
+    }
+
+    #footer-social-media li {
+        font-size: 1em;
+    }
+
+}    
