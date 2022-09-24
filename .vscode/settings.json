@@ -21,12 +21,7 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "Dracula Dark+",
+   "workbench.colorTheme": "Default Dark+",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify",
-   "workbench.iconTheme": "material-icon-theme",
-   "workbench.preferredDarkColorTheme": "Community Material Theme Darker High Contrast",
-   "[css]": {
-      "editor.defaultFormatter": "vscode.css-language-features"
-   }
+   "editor.defaultFormatter": "HookyQR.beautify"
 }
