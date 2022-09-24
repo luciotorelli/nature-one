@@ -69,10 +69,11 @@ header {
 }
 
 #navbar li {
-    margin-right: 20px;
+    margin: 0px 20px;
     color: #F6F6EC;
     list-style-type: none;
     font-weight: 600;
+    text-align: center;
 }
 
 #navbar li a {
@@ -421,7 +422,24 @@ footer div {
     /* Header - - Tablet 768px */
     #header-background {
         height: 460px;
-    }    
+    }
+    
+    #logo img {
+        width: 100px;
+        margin: 15px 5px 10px 15px;
+    }
+
+    #order-now-button {
+        font-size: 0.8em;
+        margin: auto 15px auto 15px;
+        white-space: nowrap;
+
+    }
+
+    #navbar li a {
+        font-size: 0.8em;
+        padding: 0px;
+    }
     
     /* How to order section - Tablet 768px */
 
