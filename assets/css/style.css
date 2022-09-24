@@ -415,11 +415,11 @@ footer div {
 
 }
 
-/* Screens up to 768px - Tablet */
+/* Screens up to 768px - Table and Mobile */
 
 @media screen and (max-width: 768px) {
 
-    /* Header - - Tablet 768px */
+    /* Header - 768px Tablet and Mobile */
     #header-background {
         height: 460px;
     }
@@ -441,7 +441,7 @@ footer div {
         padding: 0px;
     }
     
-    /* How to order section - Tablet 768px */
+    /* How to order section - 768px Tablet and Mobile */
 
     #how-to-order {
         padding: 0px 16%;
@@ -465,7 +465,7 @@ footer div {
         font-size: 1.2em;
     }
 
-    /* Vitamins Section - Tablet 768px */
+    /* Vitamins Section - 768px Tablet and Mobile */
 
     #vitamins {
         display: flex;
@@ -491,7 +491,7 @@ footer div {
         font-size: 0.9em;
     }
 
-    /* Reasons to choose us - Tablet 768px  */
+    /* Reasons to choose us - 768px Tablet and Mobile  */
 
     #reasons {
         flex-direction: column; 
@@ -517,7 +517,7 @@ footer div {
         object-fit: cover;
     }
 
-    /* Footer - Tablet 768px  */
+    /* Footer - 768px Tablet and Mobile  */
 
     footer h2 {
         font-size: 0.8em;
