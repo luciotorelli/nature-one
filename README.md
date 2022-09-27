@@ -115,8 +115,9 @@ ___
 
 * #577A59 and it's neighboring shades are used on the header/hero image as well as on complementary images and footer. 
 * #CBAD6D is used as an accent color for buttons and to highlight certain objects such as the multivitamin on the hero image.
-* #032F53 is used as a secondary background color for some sections.
-* #F6F6EC is used as font color for dark backgrounds and as a primary background color for some sections. 
+* #F6F6EC is used as font color for dark backgrounds and as a primary background color for some sections on desktop screens. 
+* #E7DCC0 is used as a secondary background color for some sections.
+
 
 <br>
 
