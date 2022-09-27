@@ -341,15 +341,26 @@ header {
 .vitamin-details {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
     text-align: center;
-    align-self: center;
     width: 50%;
     padding-left: 2em;
 }
 
+.vitamin-selection {
+    width: 50%;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 35% 10% 35% 10%;
+    grid-template-rows: 20px 20px;
+    row-gap: 10px;
+}
+
+.vitamin-selection label {
+    padding-right: 10px;
+}
+
 .vitamin-selection,
-.vitamin-selection label,
 .capsule-size-selection,
 .capsule-size-selection label,
 .supplement-notes {
