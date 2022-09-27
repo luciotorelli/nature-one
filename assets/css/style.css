@@ -92,9 +92,7 @@ header {
     border-radius: 12px;
 }
 
-/* Header - Order now Page*/
-
-/* How to order section */
+/* How to order section - Homepage */
 
 #how-to-order {
     padding: 20px 16%;
@@ -283,6 +281,39 @@ header {
     height: 65vh;
     width: 55%;
     object-fit: cover;
+}
+
+
+/* Body - Order now page*/
+.body-order-page {
+    background-color: #E7DCC0;
+}
+
+/* Header - Order now page*/
+
+.header-background-order-page {
+    height: 300px;
+    background-position: 40% 70%;
+}
+
+/* Order Notice - Order now page*/
+
+.order-notice {
+    text-align: center;
+    padding: 2vw 0 2vw 3vw;
+}
+
+.order-notice h2 {
+    white-space: nowrap;
+}
+
+/* Order Form - Order now page*/
+
+.order-form-section {
+    height: 10vw;
+    width: 80%;
+    margin-top: 4vw;
+    background-color: #E7DCC0;
 }
 
 /* Google Maps */
