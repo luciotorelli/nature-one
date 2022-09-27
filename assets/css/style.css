@@ -311,18 +311,16 @@ header {
 
 .order-form-section {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30vw;
+    margin: 5vw auto 2vw auto;
+    height: auto;
     width: 80%;
-    margin-top: 4vw;
     background-color: #E7DCC0;
     font-size: 1em;
 }
 
 #order-now-form {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     justify-content: center;
     border: solid 1px #000;
     background-color: rgba(203, 173, 109, 0.35);
@@ -342,7 +340,6 @@ legend {
 .personal-details {
     display: flex;
     flex-direction: column;
-    width: 30%;
     align-items: center;
     justify-content: center;
 }
@@ -367,14 +364,13 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 40%;
-    padding: 0 1em;
+    padding: 1em;
+    margin-left: 2em;
 }
 
 
 .vitamin-selection {
     width: 80%;
-    margin-top: 10px;
     text-align: right;
     display: grid;
     grid-template-columns: 35% 10% 35% 10%;
