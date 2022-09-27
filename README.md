@@ -140,3 +140,4 @@ ___
 * ### Future Features
    1. Blinking animation on the Order Now! button
    2. If required, create a new layout for medium screens such as tablets. 
+   3. Implement Aria.
