@@ -42,9 +42,9 @@
     </section>
     <!-- Order Form -->
     <section class="order-form-section">
-        <h2>Sign up to your multivitamin.</h2>
         <form id="order-now-form" method =“GET” action=“form-confirmation.html”>
-            <div class="personal-details">
+            <fieldset class="personal-details">
+                <legend>Your details</legend>
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="first_name" required>
                 
@@ -58,39 +58,40 @@
                 <input type="text" id="address" name="street_address" required>
 
                 <label for="delivery-note">Delivery Note</label>
-                <textarea id="delivery-note" name="delivery_note" required></textarea>
-            </div>
-            <div class="vitamin-details">
+                <textarea maxlength="50" id="delivery-note" name="delivery_note" required></textarea>
+            </fieldset>
+            <fieldset class="vitamin-details">
+                <legend>Your Supplement</legend>
                 <!-- Vitamin Selection -->
-                <h3>Select all supplements you require.</h3>
-                <div class="vitamin-selection">
-                <label for="vitamin-d">Vitamin D</label>
-                <input type="checkbox" id="vitamin-d"  value="vitamin_d" name="vitamin_selection" required>
+                <fieldset class="vitamin-selection">
+                    <legend>Vitamins</legend>
+                    <label for="vitamin-d">Vitamin D</label>
+                    <input type="checkbox" id="vitamin-d"  value="vitamin_d" name="vitamin_selection" required>
 
-                <label for="vitamin-k">Vitamin K</label>
-                <input type="checkbox" id="vitamin-k"  value="vitamin_k" name="vitamin_selection" required>
+                    <label for="vitamin-k">Vitamin K</label>
+                    <input type="checkbox" id="vitamin-k"  value="vitamin_k" name="vitamin_selection" required>
 
-                <label for="complex-b">Complex B</label>
-                <input type="checkbox" id="complex-b"  value="complex-b" name="vitamin_selection" required>
+                    <label for="complex-b">Complex B</label>
+                    <input type="checkbox" id="complex-b"  value="complex-b" name="vitamin_selection" required>
 
-                <label for="calcium">Calcium</label>
-                <input type="checkbox" id="calcium"  value="calcium" name="vitamin_selection" required>
-                </div>
-                <!-- Capsule Selection -->   
-                <h3>Select your capsule size.</h3>
-                <div class="capsule-size-selection">
-                <label for="vitamin-d">1 normal-sized capsule</label>
-                <input type="radio" id="one-capsule"  value="one_capsule" name="capsule_selection" required>
+                    <label for="calcium">Calcium</label>
+                    <input type="checkbox" id="calcium"  value="calcium" name="vitamin_selection" required>
+                    </fieldset>
+                    <!-- Capsule Selection -->   
+                    <fieldset class="capsule-size-selection">
+                        <legend>Capsule size</legend>
+                        <label for="one-capsule">1 normal-sized capsule</label>
+                        <input type="radio" id="one-capsule"  value="one_capsule" name="capsule_selection" required>
 
-                <label for="vitamin-k">2 extra-small capsules</label>
-                <input type="radio" id="two-capsules"  value="two_capsules" name="capsule_selection" required>
-                </div>
-                <!-- Supplement notes-->
-                <div class="supplement-notes">
-                    <label for="supplement-note">Supplement Notes (Add dosage, doctor's recommendation or your currently used brand.</label>
-                    <textarea id="supplement-note" name="supplement_note" required></textarea>
-                </div>
-            </div>
+                        <label for="two-capsules">2 extra-small capsules</label>
+                        <input type="radio" id="two-capsules"  value="two_capsules" name="capsule_selection" required>
+                    </fieldset>
+                    <!-- Supplement notes-->
+                    <div class="supplement-notes">
+                        <label for="supplement-note">Supplement Notes (Add dosage, doctor's recommendation or your currently used brand.</label>
+                        <textarea id="supplement-note" name="supplement_note" required></textarea>
+                    </div>
+            </fieldset>
         </form>
     </section>
     <footer>
