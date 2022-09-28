@@ -516,7 +516,7 @@ footer div {
 @media screen and (max-width: 1200px) {
     
     /* Header - Desktop 1200px */
-    .header-background {
+    .header-background-homepage {
         height: 550px;
         background-position: 10% 10%;
     }
@@ -540,7 +540,7 @@ footer div {
 @media screen and (max-width: 1024px) {
 
     /* Header - Desktop 1024px */
-    .header-background {
+    .header-background-homepage {
         height: 550px;
         background-position: 20% 60%;
     }    
@@ -599,7 +599,7 @@ footer div {
         justify-content: center;
     }
 
-    .header-background {
+    .header-background-homepage {
         height: 650px;
         background-position: 20% 10%;
     }    
