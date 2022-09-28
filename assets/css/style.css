@@ -326,6 +326,7 @@ header {
     border: solid 1px #000;
     background-color: rgba(203, 173, 109, 0.35);
     padding: 2em;
+    font-size: 1em;
 }
 
 fieldset {
@@ -365,23 +366,32 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1em;
-    margin-left: 2em;
 }
-
 
 .vitamin-selection {
     width: 80%;
-    text-align: right;
     display: grid;
-    grid-template-columns: 35% 10% 35% 10%;
+    grid-template-columns: 5em 2em 5em 2em;
     grid-template-rows: 20px 20px;
     row-gap: 10px;
+    justify-content: center;
+    white-space: nowrap;
+    
+}
+
+.capsule-selection {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
 .supplement-notes {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    padding: 10px;
 }
 
 .supplement-notes h3 {
