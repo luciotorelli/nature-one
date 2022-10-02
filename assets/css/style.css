@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
 }
 
-.header-background {
+.header-background-homepage {
     position: absolute;
     background-image: url("../images/header.jpg");
     width: 100%;
@@ -613,6 +613,11 @@ footer div {
 
 @media screen and (max-width: 768px) {
 
+    /* body - 768px Tablet and Mobile */
+    body {
+        background-color: #E7DCC0;
+    }
+
     /* Header - 768px Tablet and Mobile */
     header {
         justify-content: center;
@@ -711,8 +716,8 @@ footer div {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        margin: 158px 0 0 0;
-        background-color: rgba(203, 173, 109, 0.35);
+        margin: 15% 0 0 0;
+        background-color: #E7DCC0;
     }
 
     .right-image > div {
