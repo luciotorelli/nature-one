@@ -300,18 +300,19 @@ header {
 
 .order-notice {
     text-align: center;
-    padding: 2vw 0 2vw 3vw;
+    padding: 4vh 3vw 4vw 3vw;
 }
 
 .order-notice h2 {
     white-space: nowrap;
+    font-size: 1.2em;
 }
 
 /* Order Form - Order now page*/
 
 .order-form-section {
     display: block;
-    margin: 5vw auto 2vw auto;
+    margin: 6% auto 2vw auto;
     height: auto;
     width: 80%;
     background-color: #E7DCC0;
@@ -330,7 +331,8 @@ header {
 }
 
 fieldset {
-    border: 1px solid #000
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
 legend {
@@ -344,6 +346,7 @@ legend {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 .personal-details label {
@@ -367,6 +370,14 @@ textarea {
     align-items: center;
     text-align: center;
 }
+
+.personal-details input,
+.vitamin-selection input,
+textarea {
+    border-radius: 10px ;
+    padding: 5px;
+}
+
 
 .vitamin-selection {
     width: 80%;
@@ -532,6 +543,10 @@ footer div {
     #vitamins {
         margin: 30px 15vw;
     }
+    
+    /* Order form - Desktop 1200px */
+    .order-form-section {
+        margin: 8% auto 2vw auto;
 
 }
 
@@ -566,6 +581,10 @@ footer div {
     .inner-div-reasons {
         font-size: 0.8em;
     }
+
+    /* Order form - Laptop 1024 */
+    .order-form-section {
+        margin: 10% auto 2vw auto;    
 
     /* Footer - Laptop 1024px */
     footer h2 {
@@ -755,7 +774,26 @@ footer div {
         object-fit: cover;
     }
 
+    /* Order notice - 768px Tablet and Mobile  */
+
+    .order-notice {
+        padding: 6vh 4vw 5vw 3vw;
+    }
+    
+    .order-notice h2 {
+        font-size: 1.1em;
+    }
+
+    /* Order form - 768px Tablet and Mobile  */
+
+    #order-now-form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
     /* Footer - 768px Tablet and Mobile  */
+
     footer {
         flex-direction: column;
         height: 38vh;
