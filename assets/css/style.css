@@ -831,3 +831,33 @@ footer div {
 
 
 }    
+
+/* Screens up to 425px - Mobile */
+
+@media screen and (max-width: 425px) {
+
+    /* Header - 425px Mobile */
+
+    .header-background-homepage {
+        height: 750px;
+        background-position: 20% 10%;
+    }    
+
+    #order-now-button {
+        font-size: 0.8em;
+    }
+
+    #navbar {
+        margin: 100px 0 0 0;
+        padding-top: 0;
+    }
+    
+    /* How to order section - 425px Mobile */
+
+    #how-to-order {
+        height: 450px;
+    }
+}        
+
+
+}
