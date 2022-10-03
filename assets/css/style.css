@@ -503,12 +503,16 @@ footer div {
 }
 
 #copyright {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 #footer-contact-info li {
     list-style-type: none;
     font-size: 1em;
+}
+
+#footer-social-media {
+    white-space: nowrap;
 }
 
 #footer-social-media li {
@@ -547,7 +551,27 @@ footer div {
     /* Order form - Desktop 1200px */
     .order-form-section {
         margin: 8% auto 2vw auto;
+    }
 
+    /* Footer - Desktop 1200px */    
+    footer {
+        flex-wrap: wrap;
+        height: 20vw;
+    }
+    
+    #footer-social-media {
+        order: 1;
+        width: 100%;
+    }
+
+    #copyright {
+        order: 2;
+        align-content: left;
+    }
+
+    #footer-contact-info {
+        order: 3;
+    }
 }
 
 /* Screens up to 1024px - Laptop */
@@ -585,19 +609,20 @@ footer div {
     /* Order form - Laptop 1024 */
     .order-form-section {
         margin: 10% auto 2vw auto;    
+    }
 
     /* Footer - Laptop 1024px */
     footer h2 {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     #copyright {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     
     #footer-contact-info li {
         list-style-type: none;
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     
     #footer-social-media li {
@@ -858,6 +883,3 @@ footer div {
         height: 450px;
     }
 }        
-
-
-}
