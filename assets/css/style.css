@@ -26,7 +26,8 @@ header {
     justify-content: space-between;
 }
 
-.header-background-homepage {
+.header-background-homepage,
+.header-background-order-page {
     position: absolute;
     background-image: url("../images/header.jpg");
     width: 100%;
@@ -82,7 +83,7 @@ header {
     color: #000;
     text-decoration: none;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 #navbar li a:hover {
@@ -535,6 +536,11 @@ footer div {
         height: 550px;
         background-position: 10% 10%;
     }
+
+    .header-background-order-page {
+        height: 320px;
+        background-position: 10% 60%;
+    }
     
     /* How to order - Desktop 1200px */
     #how-to-order {
@@ -580,9 +586,22 @@ footer div {
 
     /* Header - Desktop 1024px */
     .header-background-homepage {
-        height: 550px;
-        background-position: 20% 60%;
-    }    
+        height: 580px;
+        background-position: 10% 40%;
+    }
+
+    #logo img {
+        width: 120px;
+        margin: 30px;   
+    }
+
+    #navbar {
+        padding-top: 50px;
+    }
+
+    #navbar li a {
+        font-size: 0.9em;
+    }
     
     /* How to order - Laptop 1024px */
     #how-to-order {
