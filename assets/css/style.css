@@ -468,6 +468,39 @@ textarea {
     background-color: #F6F6EC ;
 }
 
+/* Shipping policy */
+
+.body-shipping {
+    background-color: #E7DCC0;
+}
+
+#shipping-notice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    color:#E7DCC0;
+}
+
+#shipping-notice h2 {
+    font-size: 1.2em;
+}
+
+#policy-section { 
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+} 
+
+#shipping-policy {
+    border: solid 1px #000;
+    width: 80%;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 2%;
+    background-color: #F6F6EC;
+}
+
 /* Google Maps */
 
 #map {
