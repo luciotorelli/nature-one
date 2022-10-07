@@ -486,6 +486,10 @@ textarea {
     font-size: 1.2em;
 }
 
+.line-break-mobile {
+    display: none;
+}
+
 #policy-section { 
     display: flex;
     flex-direction: column;  
@@ -604,6 +608,16 @@ footer div {
         margin: 8% auto 2vw auto;
     }
 
+    /* Shipping Policy - Desktop 1200px */
+
+    #shipping-notice {
+        font-size: 0.9em;
+    }
+
+    #policy-section h2 {
+        margin-top: 4%;
+    }
+
     /* Footer - Desktop 1200px */    
     footer {
         flex-wrap: wrap;
@@ -618,10 +632,12 @@ footer div {
     #copyright {
         order: 2;
         align-content: left;
+        font-size: 1em;
     }
 
     #footer-contact-info {
         order: 3;
+        font-size: 1.1em;
     }
 }
 
@@ -673,6 +689,15 @@ footer div {
     /* Order form - Laptop 1024 */
     .order-form-section {
         margin: 10% auto 2vw auto;    
+    }
+
+    /* Shipping Policy form - Laptop 1024 */
+    .line-break-mobile {
+        display: inline-block;
+    }
+
+    .justified-text {
+        text-align: center;
     }
 
     /* Footer - Laptop 1024px */
@@ -882,6 +907,20 @@ footer div {
     #order-now-form {
         display: flex;
         flex-direction: column;
+    }
+
+    /* Shipping Policy - Laptop 1024 */
+    #shipping-notice {
+        font-size: 0.8em;
+        padding-top: 20px;
+    }
+
+    #policy-section h2 {
+        font-size: 1.2em;
+    }
+
+    #shipping-policy {
+        width: 80%;
     }
     
 
