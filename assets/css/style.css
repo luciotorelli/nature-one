@@ -302,6 +302,7 @@ header {
 .order-notice {
     text-align: center;
     padding: 4vh 3vw 4vw 3vw;
+    color: #E7DCC0;
 }
 
 .order-notice h2 {
