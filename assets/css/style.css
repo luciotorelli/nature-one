@@ -498,12 +498,18 @@ textarea {
 
 #shipping-policy {
     border: solid 1px #000;
+    border-radius: 10px;
     width: 70%;
     height: 300px;
-    overflow-y: scroll;
     margin-bottom: 2%;
+    padding: 1.2rem 0.05rem  1.2rem 0;
     background-color: #F6F6EC;
 }
+
+#shipping-policy-scroll{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 300px;
 
 /* Google Maps */
 
