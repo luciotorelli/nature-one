@@ -29,7 +29,7 @@ header {
 .header-background-homepage,
 .header-background-order-page {
     position: absolute;
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/header.webp");
     width: 100%;
     height: 600px;
     z-index: -5;
@@ -228,7 +228,7 @@ header {
 /* Scrollable Image 1 */
 
 #scrollable-image-1 {
-    background-image: url("../images/vitamin-background.jpg");
+    background-image: url("../images/vitamin-background.webp");
     width: 100%;
     height: 300px;
     background-attachment: fixed;

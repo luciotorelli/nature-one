@@ -110,7 +110,7 @@ ___
 
 1. ### Color Scheme
 <br>
-<img src="color-scheme/color-scheme.png" alt="Wireframing for mobile about us page" width="800px" />
+<img src="color-scheme/color-scheme.webp" alt="Wireframing for mobile about us page" width="800px" />
 
 
 * #597D5B and it's neighboring shades are used on the header/hero image as well as on complementary images and footer. 
