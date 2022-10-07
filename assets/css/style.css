@@ -673,17 +673,17 @@ footer div {
     }
 
     #copyright {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     
     #footer-contact-info li {
         list-style-type: none;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     
     #footer-social-media li {
         list-style-type: none;
-        font-size: 1.5em;
+        font-size: 1.8em;
         display: inline;
         margin: 0.5em;
     }
@@ -928,8 +928,9 @@ footer div {
     }
 
     #navbar {
-        margin: 100px 0 0 0;
+        margin: 98px 0 0 0;
         padding-top: 0;
+        padding-right: 20px;
     }
 
     #navbar li a {
@@ -941,34 +942,8 @@ footer div {
     #how-to-order {
         height: 450px;
     }
-}
 
-/* Screens up to 375px - Mobile */
-
-@media screen and (max-width: 375px) {
-
-    /* Header - 375px Mobile */
-    .header-background-homepage {
-        height: 780px;
-        background-position: 20% 10%;
-    }    
-
-    #order-now-button {
-        font-size: 0.6em;
-    }
-
-    #navbar li a {
-        font-size: 0.6em;
-    }
-
-    /* How to order section - 375px Mobile */
-
-    #how-to-order {
-        height: 600px;
-        padding: 20px;
-    }    
-
-    /* Footer - 375px Mobile  */
+    /* Footer - 425px Mobile  */
 
     footer {
         flex-direction: column;
@@ -980,7 +955,7 @@ footer div {
     }
 
     #copyright {
-        font-size: 0.6em;
+        font-size: 0.8em;
         order: 3;
     }
 
@@ -993,8 +968,61 @@ footer div {
     }
 
     #footer-social-media li {
-        font-size: 1.4em;
+        font-size: 1.8em;
     }        
+}
+
+/* Screens up to 375px - Mobile */
+
+@media screen and (max-width: 375px) {
+
+    /* Header - 375px Mobile */
+    .header-background-homepage {
+        height: 710px;
+        background-position: 20% 10%;
+    }    
+
+    #order-now-button {
+        font-size: 0.6em;
+        margin-right: 20px;
+    }
+
+    #navbar li a {
+        font-size: 0.8em;
+    }
+
+    /* How to order section - 375px Mobile */
+
+    #how-to-order {
+        height: 560px;
+        padding: 10px 20px;
+        margin: 0;
+    } 
+    
+    /* Vitamins section - 375px Mobile */
+
+    #vitamins {
+        margin-top: 0px;
+    }
+
+    /* Footer - 375px Mobile  */
+
+    #copyright {
+        font-size: 0.8em;
+        order: 3;
+    }
+
+    #footer-contact-info {
+        order: 2;
+    }
+
+    #footer-contact-info li {
+        font-size: 0.8em;
+    }
+
+    #footer-social-media li {
+        font-size: 1.6em;
+    }            
 
 }
 
@@ -1005,31 +1033,17 @@ footer div {
     /* Header - 320px Mobile */
 
     #order-now-button {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     #navbar li a {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     /* Footer - 320px Mobile  */
 
-    footer {
-        flex-direction: column;
-        height: 38vh;
-    }
-
-    footer h2 {
-        font-size: 0.8em;
-    }
-
     #copyright {
-        font-size: 0.6em;
-        order: 3;
-    }
-
-    #footer-contact-info {
-        order: 2;
+        font-size: 0.7em;
     }
 
     #footer-contact-info li {
@@ -1037,6 +1051,6 @@ footer div {
     }
 
     #footer-social-media li {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }    
 }
