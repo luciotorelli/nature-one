@@ -113,7 +113,7 @@ ___
 <img src="color-scheme/color-scheme.png" alt="Wireframing for mobile about us page" width="800px" />
 
 
-* #577A59 and it's neighboring shades are used on the header/hero image as well as on complementary images and footer. 
+* #597D5B and it's neighboring shades are used on the header/hero image as well as on complementary images and footer. 
 * #CBAD6D is used as an accent color for buttons and to highlight certain objects such as the multivitamin on the hero image.
 * #F6F6EC is used as font color for dark backgrounds and as a primary background color for some sections on desktop screens. 
 * #E7DCC0 is used as a secondary background color for some sections.
