@@ -43,7 +43,7 @@ header {
     margin: 15px 30px 10px 30px;
 }
 
-#order-now-button {
+.order-now-button {
     color: #000;
     margin: auto 30px auto 30px;
     border: solid 1px #CBAD6D ;
@@ -56,13 +56,13 @@ header {
     white-space: nowrap;
 }
 
-#order-now-button:hover {
+.order-now-button:hover {
     color: #000 ;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
 }
 
-#navbar {
+.navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,7 +70,7 @@ header {
     padding-top: 40px;
 }
 
-#navbar li {
+.navbar li {
     margin: 0px 20px;
     color: #F6F6EC;
     list-style-type: none;
@@ -79,7 +79,7 @@ header {
     white-space: nowrap;
 }
 
-#navbar li a {
+.navbar li a {
     color: #000;
     text-decoration: none;
     padding: 10px;
@@ -87,10 +87,14 @@ header {
     transition: 0.5s;
 }
 
-#navbar li a:hover {
+.navbar li a:hover {
     color: #CBAD6D ;
     padding: 10px;
     border-radius: 12px;
+}
+
+#active-page {
+    text-decoration: underline;
 }
 
 /* How to order section - Homepage */
@@ -657,11 +661,11 @@ footer div {
         margin: 30px;   
     }
 
-    #navbar {
+    .navbar {
         padding-top: 50px;
     }
 
-    #navbar li a {
+    .navbar li a {
         font-size: 0.9em;
     }
     
@@ -759,18 +763,18 @@ footer div {
         right: 0;
     }
 
-    #order-now-button {
+    .order-now-button {
         font-size: 0.9em;
         margin: 91px 10px 0 0;
         padding: 5px auto;
     }
 
-    #navbar {
+    .navbar {
         margin: 100px 10px 0 0;
         padding-top: 0;
     }
 
-    #navbar li a {
+    .navbar li a {
         font-size: 0.9em;
     }
     
@@ -985,17 +989,17 @@ footer div {
         background-position: 20% 10%;
     }    
 
-    #order-now-button {
+    .order-now-button {
         font-size: 0.7em;
     }
 
-    #navbar {
+    .navbar {
         margin: 98px 0 0 0;
         padding-top: 0;
         padding-right: 20px;
     }
 
-    #navbar li a {
+    .navbar li a {
         font-size: 0.8em;
     }
     
@@ -1072,12 +1076,12 @@ footer div {
         background-position: 20% 10%;
     }    
 
-    #order-now-button {
+    .order-now-button {
         font-size: 0.6em;
         margin-right: 20px;
     }
 
-    #navbar li a {
+    .navbar li a {
         font-size: 0.8em;
     }
 
@@ -1133,11 +1137,11 @@ footer div {
 
     /* Header - 320px Mobile */
 
-    #order-now-button {
+    .order-now-button {
         font-size: 0.7em;
     }
 
-    #navbar li a {
+    .navbar li a {
         font-size: 0.7em;
     }
 
