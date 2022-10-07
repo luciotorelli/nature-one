@@ -510,6 +510,7 @@ textarea {
     overflow-x: hidden;
     overflow-y: scroll;
     height: 300px;
+    padding: 0 15px;
 
 /* Google Maps */
 
