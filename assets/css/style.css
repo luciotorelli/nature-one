@@ -582,7 +582,7 @@ footer div {
     padding: 0.5em;
 }
 
-/* Screens up to 1200px - Desktops */
+/* Screens up to 1200px width - Desktops */
 
 @media screen and (max-width: 1200px) {
 
@@ -648,7 +648,7 @@ footer div {
     }
 }
 
-/* Screens up to 1024px - Laptop */
+/* Screens up to 1024px width - Laptop */
 
 @media screen and (max-width: 1024px) {
 
@@ -731,7 +731,7 @@ footer div {
 
 }
 
-/* Screens up to 768px - Table and Mobile */
+/* Screens up to 768px width - Table and Mobile */
 
 @media screen and (max-width: 768px) {
 
@@ -982,7 +982,7 @@ footer div {
 
 }
 
-/* Screens up to 425px - Mobile */
+/* Screens up to 425px width - Mobile */
 
 @media screen and (max-width: 425px) {
 
@@ -1070,7 +1070,7 @@ footer div {
     }
 }
 
-/* Screens up to 375px - Mobile */
+/* Screens up to 375px width - Mobile */
 
 @media screen and (max-width: 375px) {
 
@@ -1135,7 +1135,7 @@ footer div {
 
 }
 
-/* Screens up to 320px - Mobile */
+/* Screens up to 320px width - Mobile */
 
 @media screen and (max-width: 320px) {
 
@@ -1161,5 +1161,19 @@ footer div {
 
     #footer-social-media li {
         font-size: 1.5em;
+    }
+}
+
+
+/* Screens above 1024px height - Tablets */
+
+@media screen and (min-height: 1024px) {
+
+    #shipping-policy {
+        height: 35vh;
+    }
+    
+    #shipping-policy-scroll {
+        height: 35vh;
     }
 }
