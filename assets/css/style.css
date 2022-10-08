@@ -458,8 +458,8 @@ textarea {
 .reset-form {
     color: #f6f6ec;
     margin: auto 30px auto 30px;
-    border: solid 1px grey;
-    background-color: grey;
+    border: solid 1px #686666;
+    background-color: #686666;
     padding: 10px;
     border-radius: 12px;
     text-decoration: none;
