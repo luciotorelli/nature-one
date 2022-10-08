@@ -36,7 +36,7 @@ header {
 
 .logo img {
     width: 160px;
-    height: 67;
+    height: 67px;
     margin: 15px 30px 10px 30px;
 }
 
@@ -634,7 +634,6 @@ footer div {
 
     .copyright {
         order: 2;
-        align-content: left;
         font-size: 1em;
     }
 
@@ -766,7 +765,7 @@ footer div {
     .order-now-button {
         font-size: 0.9em;
         margin: 91px 10px 0 0;
-        padding: 5px auto;
+        padding: 5px 0;
     }
 
     .navbar {
