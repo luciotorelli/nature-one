@@ -15,10 +15,6 @@ body {
     background-color: #f6f6ec;
 }
 
-.white-text {
-    color: #f6f6ec;
-}
-
 /* Header */
 
 header {
@@ -222,7 +218,7 @@ header {
     width: 100%;
     margin: 10px;
     border: 0px;
-    background-color: rgba(203, 173, 109, 0.35);
+    background-color: #cbad6d59;
     border-radius: 30px;
 }
 
@@ -246,7 +242,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 65vh;
-    background-color: rgba(203, 173, 109, 0.35);
+    background-color: #cbad6d59;
 }
 
 .outer-div-reasons {
@@ -332,7 +328,7 @@ header {
     gap: 20px;
     justify-content: center;
     border: solid 1px #000;
-    background-color: rgba(203, 173, 109, 0.35);
+    background-color: #cbad6d59;
     padding: 2em;
     font-size: 1em;
 }
