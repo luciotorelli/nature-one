@@ -19,13 +19,13 @@ ___
     * Future Features
  7. Technologies used
  8. Testing
-    * 7.1 Code validation
-    * 7.2 Test cases (User Feedback - Screenshots)
-    * 7.3 Fixed Bugs
-    * 7.4 Supported Screens and Browsers
+    * 8.1 Code validation
+    * 8.2 Test cases (User Feedback - Screenshots)
+    * 8.3 Fixed Bugs
+    * 8.4 Supported Screens and Browsers
  9. Deployment
-    * 8.1 Gitpod
-    * 8.2 Github pages
+    * 9.1 Gitpod
+    * 9.2 Github pages
  10.  Credits
 
 <br>
@@ -36,7 +36,7 @@ ___
  * Understand the business nature of the website on the first page.
  * Easily identify all existing pages within the website.
  * Quickly navigate to the order page for a seemless shopping experience. 
- * Access to critical information such as shipping, policies and about us from the header.  
+ * Access to critical information such as shipping policy and homepage from the header.  
 
 <br>
 
@@ -71,11 +71,7 @@ ___
          <summary>Shipping</summary>
             <img src="wireframing/desktop-shipping.png" alt="Wireframing for desktop shipping page" width="800px" />
       </details>
-
-   *  <details>
-         <summary>About Us</summary>
-            <img src="wireframing/desktop-aboutus.png" alt="Wireframing for desktop about us page" width="800px" />
-      </details>            
+ 
 </details>
 
 <details>
@@ -95,11 +91,6 @@ ___
          <summary>Shipping</summary>
             <img src="wireframing/mobile-shipping.png" alt="Wireframing for mobile shipping page" width="800px" />
       </details>
-
-   *  <details>
-         <summary>About Us</summary>
-            <img src="wireframing/mobile-aboutus.png" alt="Wireframing for mobile about us page" width="800px" />
-      </details>
 </details>
 
 <br>
@@ -110,7 +101,7 @@ ___
 
 1. ### Color Scheme
 <br>
-<img src="color-scheme/color-scheme.webp" alt="Wireframing for mobile about us page" width="800px" />
+<img src="color-scheme/color-scheme.webp" alt="Color scheme" width="800px" />
 
 
 * #597D5B and it's neighboring shades are used on the header/hero image as well as on complementary images and footer. 
@@ -130,15 +121,35 @@ ___
 <br>
 
 * ### Features
-   1. Landing Page - The landing page should provide the context on what is the website for, how to place an order and every page available. 
-   2. The first section should be a breakdown of how the natural vitamins are created/harvested. 
-   3. The second section provide the pros of hiring the service as well as a quick commercial about the company.
+   1. Landing Page - The landing page provides the clear purpose of the website, how to place an order and read about shipping or the product. 
+   2. The first section is a breakdown of how the natural vitamins are created/extracted. 
+   3. The second section provides the pros of hiring the service as well as a quick commercial about the company.
    4. The footer presents a copyright notice, contact information and social media links. 
    5. Secondary pages are split into two easily identifiable sections, header and footer. 
    6. The order now page presents a form for the user to place their order. 
+   7. Although planned for Mobile and Desktops, the website is also responsivess on tablets.
+   8. Links have descriptive aria-labels to help screen readers identify it's contents.
 
 * ### Future Features
-   1. Blinking animation on the Order Now! button
-   2. If required, create a new layout for medium screens such as tablets. 
-   3. Implement Aria.
-   4. Background color for form inputs
+   1. ~~If required, create a new layout for medium screens such as tablets.~~ 
+   2. ~~Implement aria-label on links.~~
+   3. Blinking animation on the Order Now! button
+   4. Background color for form inputs.
+   5. Order confirmation page once submitting the form.
+
+
+## Technologies used
+
+
+* [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://www.w3schools.com/css/)
+* [Font Awesome](https://fontawesome.com/)
+* [Github and Git](https://docs.github.com/en/get-started/using-git/about-git)
+
+
+## Testing
+
+* 8.1 Code validation
+* 8.2 Test cases (User Feedback - Screenshots)
+* 8.3 Fixed Bugs
+* 8.4 Supported Screens and Browsers
