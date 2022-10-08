@@ -38,7 +38,7 @@ header {
     background-position: 20% 60%;
 }
 
-#logo img {
+.logo img {
     width: 160px;
     height: 67;
     margin: 15px 30px 10px 30px;
@@ -94,31 +94,31 @@ header {
     border-radius: 12px;
 }
 
-#active-page {
+.active-page {
     text-decoration: underline;
 }
 
 /* How to order section - Homepage */
 
-#how-to-order {
+.how-to-order {
     padding: 20px 16%;
     height: 400px;
     margin-top: 70px;
 }
 
-#how-to-order p {
+.how-to-order p {
     padding: 10px 20px;
     font-weight: 600;
 }
 
-#how-to-order h2 {
+.how-to-order h2 {
     text-align: center;
     padding-bottom: 20px;
     font-size: 20px;
     font-weight: 600;
 }
 
-#steps {
+.steps {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -126,7 +126,7 @@ header {
     margin: 20px auto;
 }
 
-#step-one {
+.step-one {
     padding: 2px;
     border-left: 4px solid #000;
     flex-grow: 1;
@@ -136,7 +136,7 @@ header {
     justify-content: space-between;
 }
 
-#step-two {
+.step-two {
     border-left: 4px solid #000;
     border-right: 4px solid #000;
     padding: 2px;
@@ -147,7 +147,7 @@ header {
     justify-content: space-between;
 }
 
-#step-three {
+.step-three {
     padding: 2px;
     border-right: 4px solid #000;
     flex-grow: 1;
@@ -157,7 +157,7 @@ header {
     justify-content: space-between;
 }
 
-#order-now-button-2 {
+.order-now-button-2 {
     color: #000;
     border: solid 1px #CBAD6D;
     background-color: #CBAD6D;
@@ -170,7 +170,7 @@ header {
     transition: 0.5s;
 }
 
-#order-now-button-2:hover {
+.order-now-button-2:hover {
     color: #000;
     border: solid 1px #F6F6EC;
     background-color: #F6F6EC;
@@ -184,7 +184,7 @@ header {
 
 /* Vitamins Section */
 
-#vitamins {
+.vitamins {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -200,7 +200,7 @@ header {
     text-align: end;
 }
 
-#vitamins h2 {
+.vitamins h2 {
     font-size: 1.4em;
     border-bottom: 1px solid #000;
 }
@@ -209,7 +209,7 @@ header {
     font-size: 1em;
 }
 
-#vitamins img {
+.vitamins img {
     height: 22%;
     width: 22%;
     border-radius: 30px;
@@ -228,7 +228,7 @@ header {
 
 /* Scrollable Image 1 */
 
-#scrollable-image-1 {
+.scrollable-image-1 {
     background-image: url("../images/vitamin-background.webp");
     width: 100%;
     height: 300px;
@@ -242,14 +242,14 @@ header {
 
 /* Reasons to choose us */
 
-#reasons {
+.reasons {
     display: flex;
     flex-direction: row;
     height: 65vh;
     background-color: rgba(203, 173, 109, 0.35);
 }
 
-#outer-div-reasons {
+.outer-div-reasons {
     height: 65vh;
     width: 45%;
     color: #000;
@@ -283,7 +283,7 @@ header {
     font-size: 1.1em;
 }
 
-#reasons-video {
+.reasons-video {
     height: 65vh;
     width: 55%;
     object-fit: cover;
@@ -326,7 +326,7 @@ header {
     font-size: 1em;
 }
 
-#order-now-form {
+.order-now-form {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
@@ -480,7 +480,7 @@ textarea {
     background-color: #E7DCC0;
 }
 
-#shipping-notice {
+.shipping-notice {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -488,7 +488,7 @@ textarea {
     color: #E7DCC0;
 }
 
-#shipping-notice h2 {
+.shipping-notice h2 {
     font-size: 1.2em;
 }
 
@@ -496,17 +496,17 @@ textarea {
     display: none;
 }
 
-#policy-section {
+.policy-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#policy-section h2 {
+.policy-section h2 {
     margin-bottom: 2%;
 }
 
-#shipping-policy {
+.shipping-policy {
     border: solid 1px #000;
     border-radius: 10px;
     width: 70%;
@@ -516,7 +516,7 @@ textarea {
     background-color: #F6F6EC;
 }
 
-#shipping-policy-scroll {
+.shipping-policy-scroll {
     overflow-x: hidden;
     overflow-y: scroll;
     height: 300px;
@@ -525,7 +525,7 @@ textarea {
 
 /* Google Maps */
 
-#map {
+.map {
     margin-bottom: -10px;
 }
 
@@ -558,27 +558,27 @@ footer div {
     margin: auto;
 }
 
-#copyright {
+.copyright {
     font-size: 0.8em;
 }
 
-#footer-contact-info li {
+.footer-contact-info li {
     list-style-type: none;
     font-size: 1em;
 }
 
-#footer-social-media {
+.footer-social-media {
     white-space: nowrap;
 }
 
-#footer-social-media li {
+.footer-social-media li {
     list-style-type: none;
     font-size: 2em;
     display: inline;
     margin: 0.5em;
 }
 
-#footer-social-media a {
+.footer-social-media a {
     padding: 0.5em;
 }
 
@@ -598,7 +598,7 @@ footer div {
     }
 
     /* How to order - Desktop 1200px */
-    #how-to-order {
+    .how-to-order {
         padding: 20px 16%;
         height: 400px;
         margin-top: 40px;
@@ -606,7 +606,7 @@ footer div {
 
     /* Vitamins Section - Desktop 1200px */
 
-    #vitamins {
+    .vitamins {
         margin: 30px 15vw;
     }
 
@@ -617,11 +617,11 @@ footer div {
 
     /* Shipping Policy - Desktop 1200px */
 
-    #shipping-notice {
+    .shipping-notice {
         font-size: 0.9em;
     }
 
-    #policy-section h2 {
+    .policy-section h2 {
         margin-top: 4%;
     }
 
@@ -631,18 +631,18 @@ footer div {
         height: 20vw;
     }
 
-    #footer-social-media {
+    .footer-social-media {
         order: 1;
         width: 100%;
     }
 
-    #copyright {
+    .copyright {
         order: 2;
         align-content: left;
         font-size: 1em;
     }
 
-    #footer-contact-info {
+    .footer-contact-info {
         order: 3;
         font-size: 1.1em;
     }
@@ -658,7 +658,7 @@ footer div {
         background-position: 10% 40%;
     }
 
-    #logo img {
+    .logo img {
         width: 120px;
         height: 50px;
         margin: 30px;
@@ -673,19 +673,19 @@ footer div {
     }
 
     /* How to order - Laptop 1024px */
-    #how-to-order {
+    .how-to-order {
         padding: 5px 15%;
         height: 400px;
         margin-top: 30px;
     }
 
     /* Vitamins Section - Laptop 1024px */
-    #vitamins {
+    .vitamins {
         margin: 30px 15vw;
     }
 
     /* Scrollable Image 1 - Laptop 1024px */
-    #scrollable-image-1 {
+    .scrollable-image-1 {
         height: 200px;
     }
 
@@ -713,16 +713,16 @@ footer div {
         font-size: 0.8em;
     }
 
-    #copyright {
+    .copyright {
         font-size: 0.8em;
     }
 
-    #footer-contact-info li {
+    .footer-contact-info li {
         list-style-type: none;
         font-size: 0.8em;
     }
 
-    #footer-social-media li {
+    .footer-social-media li {
         list-style-type: none;
         font-size: 1.8em;
         display: inline;
@@ -750,7 +750,7 @@ footer div {
         background-position: 20% 10%;
     }
 
-    #logo {
+    .logo {
         width: 100%;
         position: absolute;
         margin: 0px auto;
@@ -759,7 +759,7 @@ footer div {
         text-align: center;
     }
 
-    #logo img {
+    .logo img {
         width: 150px;
         height: 62px;
         margin: 15px auto 10px auto;
@@ -784,46 +784,46 @@ footer div {
 
     /* How to order section - 768px Tablet and Mobile */
 
-    #how-to-order {
+    .how-to-order {
         padding: 0 20%;
         height: 450px;
         margin-top: 30px;
     }
 
-    #steps {
+    .steps {
         flex-direction: column;
         margin: 20px auto;
         align-items: center;
     }
 
-    #step-one {
+    .step-one {
         border-right: 4px solid #000;
         border-left: 4px solid #000;
         padding: 10px;
         width: 70%;
     }
 
-    #step-two {
+    .step-two {
         border-right: 4px solid #000;
         border-left: 4px solid #000;
         padding: 10px;
         width: 70%;
     }
 
-    #step-three {
+    .step-three {
         padding: 10px;
         border-right: 4px solid #000;
         border-left: 4px solid #000;
         width: 70%;
     }
 
-    #how-to-order p {
+    .how-to-order p {
         padding: 5px 15px;
         line-height: 22px;
         font-size: 0.8em;
     }
 
-    #how-to-order h2 {
+    .how-to-order h2 {
         padding-bottom: 10px;
         font-size: 1em;
     }
@@ -834,7 +834,7 @@ footer div {
 
     /* Vitamins Section - 768px Tablet and Mobile */
 
-    #vitamins {
+    .vitamins {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -852,7 +852,7 @@ footer div {
         width: 60%;
     }
 
-    #vitamins h2 {
+    .vitamins h2 {
         font-size: 1em;
         border-bottom: 1px solid #000;
     }
@@ -867,7 +867,7 @@ footer div {
         background-color: transparent;
     }
 
-    #vitamins img {
+    .vitamins img {
         height: 22%;
         width: 22%;
         border-radius: 40px;
@@ -877,12 +877,12 @@ footer div {
 
     /* Reasons to choose us - 768px Tablet and Mobile  */
 
-    #reasons {
+    .reasons {
         flex-direction: column;
         height: 130vh;
     }
 
-    #outer-div-reasons {
+    .outer-div-reasons {
         height: 65vh;
         width: 100%;
     }
@@ -895,7 +895,7 @@ footer div {
         padding-bottom: 5vh;
     }
 
-    #reasons-video {
+    .reasons-video {
         height: 65vh;
         width: 100%;
         object-fit: cover;
@@ -913,22 +913,22 @@ footer div {
 
     /* Order form - 768px Tablet and Mobile  */
 
-    #order-now-form {
+    .order-now-form {
         display: flex;
         flex-direction: column;
     }
 
     /* Shipping Policy - Laptop 1024 */
-    #shipping-notice {
+    .shipping-notice {
         font-size: 0.8em;
         padding-top: 20px;
     }
 
-    #policy-section h2 {
+    .policy-section h2 {
         font-size: 1.2em;
     }
 
-    #shipping-policy {
+    .shipping-policy {
         width: 80%;
     }
 
@@ -958,24 +958,24 @@ footer div {
         font-size: 0.9em;
     }
 
-    #copyright {
+    .copyright {
         font-size: 0.7em;
         order: 3;
     }
 
-    #footer-contact-info {
+    .footer-contact-info {
         order: 2;
     }
 
-    #footer-contact-info li {
+    .footer-contact-info li {
         font-size: 0.9em;
     }
 
-    #footer-social-media {
+    .footer-social-media {
         margin-top: 20px;
     }
 
-    #footer-social-media li {
+    .footer-social-media li {
         font-size: 2em;
     }
 
@@ -1009,13 +1009,13 @@ footer div {
 
     /* How to order section - 425px Mobile */
 
-    #how-to-order {
+    .how-to-order {
         height: 450px;
     }
 
     /* Order Form - Order now page*/
 
-    #order-now-form {
+    .order-now-form {
         padding: 10px;
     }
 
@@ -1028,7 +1028,7 @@ footer div {
         padding-left: 10%;
     }
 
-    #order-now-form {
+    .order-now-form {
         padding: 15px;
     }
 
@@ -1052,20 +1052,20 @@ footer div {
         font-size: 0.8em;
     }
 
-    #copyright {
+    .copyright {
         font-size: 0.8em;
         order: 3;
     }
 
-    #footer-contact-info {
+    .footer-contact-info {
         order: 2;
     }
 
-    #footer-contact-info li {
+    .footer-contact-info li {
         font-size: 0.8em;
     }
 
-    #footer-social-media li {
+    .footer-social-media li {
         font-size: 1.8em;
     }
 }
@@ -1091,7 +1091,7 @@ footer div {
 
     /* How to order section - 375px Mobile */
 
-    #how-to-order {
+    .how-to-order {
         height: 560px;
         padding: 10px 20px;
         margin: 0;
@@ -1099,7 +1099,7 @@ footer div {
 
     /* Vitamins section - 375px Mobile */
 
-    #vitamins {
+    .vitamins {
         margin-top: 0px;
     }
 
@@ -1116,20 +1116,20 @@ footer div {
 
     /* Footer - 375px Mobile  */
 
-    #copyright {
+    .copyright {
         font-size: 0.8em;
         order: 3;
     }
 
-    #footer-contact-info {
+    .footer-contact-info {
         order: 2;
     }
 
-    #footer-contact-info li {
+    .footer-contact-info li {
         font-size: 0.8em;
     }
 
-    #footer-social-media li {
+    .footer-social-media li {
         font-size: 1.6em;
     }
 
@@ -1151,15 +1151,15 @@ footer div {
 
     /* Footer - 320px Mobile  */
 
-    #copyright {
+    .copyright {
         font-size: 0.7em;
     }
 
-    #footer-contact-info li {
+    .footer-contact-info li {
         font-size: 0.8em;
     }
 
-    #footer-social-media li {
+    .footer-social-media li {
         font-size: 1.5em;
     }
 }
@@ -1169,11 +1169,11 @@ footer div {
 
 @media screen and (min-height: 1024px) {
 
-    #shipping-policy {
+    .shipping-policy {
         height: 35vh;
     }
     
-    #shipping-policy-scroll {
+    .shipping-policy-scroll {
         height: 35vh;
     }
 }
