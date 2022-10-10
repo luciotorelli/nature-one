@@ -764,8 +764,8 @@ footer div {
 
     .order-now-button {
         font-size: 0.9em;
-        margin: 91px 10px 0 0;
-        padding: 5px 0;
+        margin: 96px 10px 0 0;
+        padding: 5px;
     }
 
     .navbar {
@@ -1078,6 +1078,7 @@ footer div {
     .order-now-button {
         font-size: 0.6em;
         margin-right: 20px;
+        margin-top: 96px;
     }
 
     .navbar li a {
