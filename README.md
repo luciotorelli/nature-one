@@ -33,10 +33,10 @@ ___
  ## User Stories
  ___
 
- * Understand the business nature of the website on the first page.
- * Easily identify all existing pages within the website.
- * Quickly navigate to the order page for a seemless shopping experience. 
- * Access to critical information such as shipping policy and homepage from the header.  
+ * As a new user I would like to understand the business nature of the website on the very first section.
+ * As a new or returning user I would like to easily access all existing pages within the website through the header.
+ * As a customer ready to purchase I would like to quickly navigate to the order page.
+ * As a hesitant customer I would like to have access to critical information such as shipping policy and product information.  
 
 <br>
 
