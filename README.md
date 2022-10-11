@@ -150,6 +150,20 @@ ___
 ## Testing
 
 * 8.1 Code validation
+  * The code for all pages were tested against [W3C Markup validation service.](https://validator.w3.org/)
+  * The code for the CSS file was tested against [W3C CSS validation service.](https://jigsaw.w3.org/css-validator/)
+  * All files were tested during development using the [Spelling checker for Visual Studio Code extension.](https://github.com/streetsidesoftware/vscode-spell-checker) 
 * 8.2 Test cases (User Feedback - Screenshots)
 * 8.3 Fixed Bugs
 * 8.4 Supported Screens and Browser
+  * Screen sizes:
+    * 320px — 480px: Mobile devices
+    * 481px — 768px: Tablets
+    * 769px — 1024px: Tablets and Laptops
+    * 1025px — 1200px: Desktop and Large screens
+    * 1201px and up: Large Screens
+  * Browsers:
+    * Chrome.
+    * Firefox.
+    * Safari.
+    * Microsoft Edge.
