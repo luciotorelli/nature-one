@@ -36,7 +36,7 @@ ___
  * As a new user I would like to understand the business nature of the website on the very first section.
  * As a new or returning user I would like to easily access all existing pages within the website through the header.
  * As a customer ready to purchase I would like to quickly navigate to the order page.
- * As a hesitant customer I would like to have access to critical information such as shipping policy and product information.  
+ * As a hesitant customer I would like to have access to critical information such as shipping policy and product information to make an informed decision.  
 
 <br>
 
@@ -141,10 +141,10 @@ ___
 ## Technologies used
 
 
-* [HTML 5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS](https://www.w3schools.com/css/)
-* [Font Awesome](https://fontawesome.com/)
-* [Github and Git](https://docs.github.com/en/get-started/using-git/about-git)
+* [HTML 5](https://en.wikipedia.org/wiki/HTML5) - The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
+* [CSS](https://www.w3schools.com/css/) - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+* [Font Awesome](https://fontawesome.com/) - Font Awesome is a font and icon toolkit based on CSS and Less.
+* [Github and Git](https://docs.github.com/en/get-started/using-git/about-git) - GitHub, Inc., is an Internet hosting service for software development and version control using Git.
 
 
 ## Testing
