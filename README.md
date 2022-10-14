@@ -33,9 +33,9 @@ Nature one is a subscription based service for building a personalized multivita
 9.  [Deployment](https://github.com/luciotorelli/nature-one#deployment)
     - [9.1 Gitpod](https://github.com/luciotorelli/nature-one#deployment)
     - [9.2 Github pages](https://github.com/luciotorelli/nature-one#deployment)
-10. [Credits](https://github.com/luciotorelli/nature-one#deployment)
-    - [10.1 Gitpod](https://github.com/luciotorelli/nature-one#deployment)
-    - [10.2 Github pages](https://github.com/luciotorelli/nature-one#deployment)
+10. [Credits](https://github.com/luciotorelli/nature-one#credits)
+    - [10.1 Special Thanks!](https://github.com/luciotorelli/nature-one#deployment)
+    - [10.2 Resources used](https://github.com/luciotorelli/nature-one#deployment)
 
 
 
