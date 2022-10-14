@@ -7,7 +7,7 @@
 <h2><a href="https://luciotorelli.github.io/nature-one/index.html" target="_blank">Live Website here</a></h2>
 
 
-Nature one is a subscription based service for building a personalized multivitamin created from natural ingredients that is delivered to your door.
+Nature One is a subscription based service for building a personalized multivitamin created from natural ingredients that is delivered to your door.
 
 ---
 
@@ -232,7 +232,8 @@ Nature one is a subscription based service for building a personalized multivita
          <li>Oct 10 - <a href="https://github.com/luciotorelli/nature-one/commit/7b039a24dec20f91b973d82e224e9963043f07e4">Fix scrollable image on Apple devices</a></li>
          <li>Oct 10 - <a href="https://github.com/luciotorelli/nature-one/commit/73e97c3bd34b39dcbf9cafa6a47d3e878fe67f03">Fix typo on index.html</a></li>
          <li>Oct 14 - <a href="https://github.com/luciotorelli/nature-one/commit/8ad4846e87a97a9eeb3360259082d2b98edb1173">Fix 405 error on live website after submitting order now form.</a></li>
-         <li>Oct 14 - <a href="https://github.com/luciotorelli/nature-one/commit/82fd92635f92214b9685d60bcd1ef8c0f50dfec6">Fix grammar on homepage and order now page</a></li>           
+         <li>Oct 14 - <a href="https://github.com/luciotorelli/nature-one/commit/82fd92635f92214b9685d60bcd1ef8c0f50dfec6">Fix grammar on homepage and order now page</a></li>
+         <li>Oct 14 - <a href="https://github.com/luciotorelli/nature-one/commit/afe7747f7c0e076141b2ea81f8ffd146c6c3c44b">Fix underline on active pages</a></li>         
    </ul>
 </details>
 
