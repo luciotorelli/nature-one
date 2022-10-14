@@ -4,7 +4,7 @@
 
 <img src="readme-assets/screens-header.jpg" alt="Wireframing for desktop order now page" width="800px" />
 
-<h2><a href="https://luciotorelli.github.io/nature-one/index.html">Live Website here</a></h2>
+<h2><a href="https://luciotorelli.github.io/nature-one/index.html" target="_blank">Live Website here</a></h2>
 
 
 Nature one is a subscription based service for building a personalized multivitamin created from natural ingredients that is delivered to your door.
@@ -135,7 +135,7 @@ Nature one is a subscription based service for building a personalized multivita
 
 <details>
    <summary>Features</summary>
-     1.  Landing Page Header - The landing page header provides the clear purpose of the website, how to place an order and read about shipping and the product.
+     1.  Landing Page Header - The landing page header provides the clear purpose of the website, how to place an order, read about shipping and the product.
       <img src="readme-assets/header-readme.jpg" alt="Color scheme" width="1000px" />
      2.  The first section of the landing page is a breakdown of how the natural vitamins are created/extracted.
       <img src="readme-assets/vitamins-readme.jpg" alt="Color scheme" width="1000px" />
@@ -242,7 +242,7 @@ Nature one is a subscription based service for building a personalized multivita
    * The scrollable image doesn't work on IPhones due to an OS limitation, Javascript would be required for a workaround.
    * Depending on the device rescaling settings, the how to order steps may overlap with the vitamin section.
    * The video thumbnail isn't preloaded on IPhones due to an OS limitation, Javascript would be required for a workaround.
-   * Some devices displayed scaling issues that were not present on the ChromeDev emulator, fixes were issued for devices that were used during development.
+   * Some devices displayed scaling issues that were not present on the ChromeDev emulator, fixes were issued for devices that were available during development.
 
 </details>
 
@@ -288,7 +288,7 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
    * [@tvianna](https://github.com/tvianna) - My sister that provided feedback on the project and for sharing all extensions she uses on VScode.
    * [@Neil Deignan](https://www.linkedin.com/in/neil-deignan-6b7270b2/) - My partner for spotting some last minute grammar issues on the website.
    * [@GaryS007](https://github.com/GaryS007) - My fellow student/colleague that provided feedback on the project and helped our study group keep going.
-   * My study group for sharing the struggles/challenges and keeping each other progressing! ([@alexiiasantos](https://github.com/alexiiasantos), Bohdan, [@GaryS007](https://github.com/GaryS007), Ian, [@James-Fitz](https://github.com/James-Fitz), [@zemaciel](https://github.com/zemaciel), Thomas and Yanina)
+   * My study group for sharing the struggles/challenges and keeping each other progressing! ([@alexiiasantos](https://github.com/alexiiasantos), Bohdan, [@GaryS007](https://github.com/GaryS007), [@oconnorian3](https://github.com/oconnorian3), [@James-Fitz](https://github.com/James-Fitz), [@zemaciel](https://github.com/zemaciel), Thomas and Yanina)
    * [@WebDevSimplified](https://github.com/WebDevSimplified) for [this awesome tutorial on Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE) that I came back to multiple times during the project.
 
 ### Resources used
