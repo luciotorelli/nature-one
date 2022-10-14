@@ -119,7 +119,7 @@ header {
     border-radius: 12px;
 }
 
-.active-page {
+#active-page {
     text-decoration: underline;
 }
 
