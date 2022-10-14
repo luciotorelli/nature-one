@@ -2,7 +2,10 @@
      alt="Nature 1 - Project Logo"
      width="200px" />
 
-## Overview
+<img src="readme-assets/screens-header.jpg" alt="Wireframing for desktop order now page" width="800px" />
+
+<h2><a href="https://luciotorelli.github.io/nature-one/index.html">Live Website here</a></h2>
+<br>
 
 Nature one is a subscription based service for building a personalized multivitamin created from natural ingredients that is delivered to your door.
 
@@ -130,8 +133,6 @@ Nature one is a subscription based service for building a personalized multivita
 
 ## Features
 
-<br>
-
 <details>
    <summary>Features</summary>
      1.  Landing Page Header - The landing page header provides the clear purpose of the website, how to place an order and read about shipping and the product.
@@ -159,12 +160,11 @@ Nature one is a subscription based service for building a personalized multivita
    3.  Blinking animation on the Order Now! button
    4.  Background color for form inputs.
    5.  Order confirmation page once submitting the form.
-   6.  Replace scrollable image with fixed image on Apple mobile devices due to the OS limitation with the feature.
+   6.  Replace scrollable image with fixed image on Apple mobile devices due to the OS limitation with the feature (Javascript required).
+   7.  Make only one of any 4 checkboxes on the order form required
 </details>
 
 ---
-
-<br>
 
 ## Technologies used
 
@@ -236,9 +236,16 @@ Nature one is a subscription based service for building a personalized multivita
 
 ---
 
-<br>
 
 ## Deployment
+
+The project was deployed using [Github pages](https://pages.github.com/) and updated using the [Live Server VScode extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) following those steps; 
+
+1. Development of project and testing using VScode and Live Server on Chrome, Firefox, Opera and Edge.
+2. Once development was completed the page was deployed by heading first to Settings on Github.
+3. Clicking on Pages on the left sidebar.
+4. Selecting the main branch.
+5. Clicking save.
 
 <br>
 
@@ -273,3 +280,4 @@ Nature one is a subscription based service for building a personalized multivita
   * [VScode - Used to write the code for this project](https://code.visualstudio.com/)
   * [Gitpod - Used in the initial part of the project until a local desktop environment was setup.](https://gitpod.io/workspaces)
   * [YouTube Music - Used to listen to hours of lofi song during the project development](https://music.youtube.com/)
+  * [Am I responsive? - Used to create main image used on README](https://ui.dev/amiresponsive)
