@@ -26,6 +26,7 @@ Nature one is a subscription based service for building a personalized multivita
     - 8.2 Test cases (User Feedback - Screenshots)
     - 8.3 Fixed Bugs
     - 8.4 Supported Screens and Browsers
+    - 8.5 Open Bugs
 9.  Deployment
     - 9.1 Gitpod
     - 9.2 Github pages
@@ -62,7 +63,7 @@ Nature one is a subscription based service for building a personalized multivita
 <details>
    <summary>Desktop</summary>
    
-   *  <details>
+-  <details>
          <summary>Home</summary>
             <img src="wireframing/desktop-home.png" alt="Wireframing for desktop home page" width="800px" />
       </details>
@@ -82,10 +83,10 @@ Nature one is a subscription based service for building a personalized multivita
 <details>
    <summary>Mobile</summary>
       
-   *  <details>
+-  <details>
          <summary>Home</summary>
             <img src="wireframing/mobile-home.png" alt="Wireframing for mobile home page" width="800px" />
-      </details>
+   </details>
 
 - <details>
      <summary>Order Now</summary>
@@ -210,3 +211,42 @@ Nature one is a subscription based service for building a personalized multivita
     - Microsoft Edge.
 
 </details>
+
+<br>
+
+## Deployment
+
+---
+
+<br>
+
+## Credits
+
+---
+
+### Special Thanks!
+
+   * Rohit Code Institutor Mentor - I am very grateful for the guidance provided by Rohit and for pointing all the improvement opportunities of my project.
+   * [@GaryS007](https://github.com/GaryS007) - My fellow student/colleague that provided feedback on my project and helped our study group keep going.
+   * Big thanks to my study group for sharing our struggles/challenges and keeping each other progressing! (Alexia, Bohdan, Gary, Ian, James, Jose, Thomas and Yanina)
+   * [@WebDevSimplified](https://github.com/WebDevSimplified) for [this awesome tutorial on Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE) that I came back to multiple times during the project.
+
+### Resources used
+
+  * [Code Institute Full Stack - Course material, mentoring and tutoring](https://codeinstitute.net/ie/full-stack-software-development-diploma/)
+  * [Stackoverflow - Having the answers to many of my questions](https://stackoverflow.com/)
+  * [W3Schools - Used to check how to use certain CSS properties and HTML elements](https://www.w3schools.com/)
+  * [Balsamiq - Used to draw the wireframing of the project](https://balsamiq.com/)
+  * [W3C markup validation service](https://validator.w3.org/)
+  * [Jigsaw CSS validation service](https://jigsaw.w3.org/css-validator/)
+  * [Pexels - Used to get all images and videos used in the project](https://www.pexels.com/)
+  * [Chrome Devtools - Used to debug the code, test responsiveness and run lighthouse reports](https://developer.chrome.com/docs/devtools/)
+  * [Coolors - Used to create the color palette for the project](https://coolors.co/)
+  * [Contrast Ratio - Used to test the color ratio of the project](https://contrast-ratio.com/)
+  * [WebAim Constrat Checker - Equally used to test the color ratio of the project](https://webaim.org/resources/contrastchecker/)
+  * [Pixlr - Used to resize and edit contrast of images used on the project](https://pixlr.com/e/)
+  * [Optimizilla - Used to optimize the images used in the project](https://imagecompressor.com/)
+  * [Can I Use - Used to test properties cross browser compatibility](https://caniuse.com/)
+  * [Autoprefixer - Used to add properties for cross browser compatibility](https://autoprefixer.github.io/)
+  * [VScode - Used to write the code for this project](https://code.visualstudio.com/)
+  * [YouTube Music - Used to listen to hours of lofi song during the project development](https://music.youtube.com/)
