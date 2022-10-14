@@ -1,11 +1,11 @@
-<img src="assets/images/logo.png"
+<img id="logo" src="assets/images/logo.png"
      alt="Nature 1 - Project Logo"
      width="200px" />
 
 <img src="readme-assets/screens-header.jpg" alt="Wireframing for desktop order now page" width="800px" />
 
 <h2><a href="https://luciotorelli.github.io/nature-one/index.html">Live Website here</a></h2>
-<br>
+
 
 Nature one is a subscription based service for building a personalized multivitamin created from natural ingredients that is delivered to your door.
 
@@ -14,7 +14,7 @@ Nature one is a subscription based service for building a personalized multivita
 ## Table of Contents
 
 
-1.  [Overview](https://github.com/luciotorelli/nature-one#overview)
+1.  [Overview](https://github.com/luciotorelli/nature-one#logo)
 2.  [User Stories](https://github.com/luciotorelli/nature-one#user-stories)
 3.  [Site Owner Goals](https://github.com/luciotorelli/nature-one#site-owner-goals)
 4.  [Wireframe](https://github.com/luciotorelli/nature-one#wireframe)
@@ -37,7 +37,7 @@ Nature one is a subscription based service for building a personalized multivita
     - [10.1 Gitpod](https://github.com/luciotorelli/nature-one#deployment)
     - [10.2 Github pages](https://github.com/luciotorelli/nature-one#deployment)
 
-<br>
+
 
 ---
 
@@ -48,7 +48,7 @@ Nature one is a subscription based service for building a personalized multivita
 - As a customer ready to purchase I would like to quickly navigate to the order page.
 - As a hesitant customer I would like to have access to critical information such as shipping policy and product information to make an informed decision.
 
-<br>
+
 
 ---
 
@@ -59,7 +59,7 @@ Nature one is a subscription based service for building a personalized multivita
 - The website is responsive and adaptable for Mobile, Desktop and in-between screens.
 - The layout and design displays the sense of a natural and modern product.
 
-<br>
+
 
 ---
 
@@ -105,17 +105,17 @@ Nature one is a subscription based service for building a personalized multivita
         </details>
   </details>
 
-<br>
+
 
 
 ---
 
 ## Color Scheme and Typography
 
-<br>
+
 
 1. ### Color Scheme
-<br>
+
 <img src="readme-assets/color-scheme.webp" alt="Color scheme" width="800px" />
 
 - #597D5B and it's neighboring shades are used on the header/hero image as well as on complementary images and footer.
@@ -123,7 +123,7 @@ Nature one is a subscription based service for building a personalized multivita
 - #F6F6EC is used as font color for dark backgrounds and as a primary background color for some sections on desktop screens.
 - #E7DCC0 is used as a secondary background color for some sections.
 
-<br>
+
 
 2. ### Typography
 
@@ -247,7 +247,7 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
 4. Selecting the main branch.
 5. Clicking save.
 
-<br>
+
 
 ---
 
@@ -256,8 +256,9 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
 ### Special Thanks!
 
    * Rohit Code Institutor Mentor - I am very grateful for the guidance provided by Rohit and for pointing all the improvement opportunities of my project.
-   * [@GaryS007](https://github.com/GaryS007) - My fellow student/colleague that provided feedback on my project and helped our study group keep going.
-   * Big thanks to my study group for sharing our struggles/challenges and keeping each other progressing! (Alexia, Bohdan, [@GaryS007](https://github.com/GaryS007), Ian, James, [@zemaciel](https://github.com/zemaciel), Thomas and Yanina)
+   * [@tvianna](https://github.com/tvianna) - My sister that provided feedback on the project and for sharing all extensions she uses on VScode.
+   * [@GaryS007](https://github.com/GaryS007) - My fellow student/colleague that provided feedback on the project and helped our study group keep going.
+   * My study group for sharing the struggles/challenges and keeping each other progressing! ([@alexiiasantos](https://github.com/alexiiasantos), Bohdan, [@GaryS007](https://github.com/GaryS007), Ian, [@James-Fitz](https://github.com/James-Fitz), [@zemaciel](https://github.com/zemaciel), Thomas and Yanina)
    * [@WebDevSimplified](https://github.com/WebDevSimplified) for [this awesome tutorial on Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE) that I came back to multiple times during the project.
 
 ### Resources used
