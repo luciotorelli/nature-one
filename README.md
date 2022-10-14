@@ -231,6 +231,8 @@ Nature one is a subscription based service for building a personalized multivita
          <li>Oct 10 - <a href="https://github.com/luciotorelli/nature-one/commit/86cb2fd417b54306bec597af7ef53b7b2f96b406">Fix order now button on mobile from 768px screens</a></li>
          <li>Oct 10 - <a href="https://github.com/luciotorelli/nature-one/commit/7b039a24dec20f91b973d82e224e9963043f07e4">Fix scrollable image on Apple devices</a></li>
          <li>Oct 10 - <a href="https://github.com/luciotorelli/nature-one/commit/73e97c3bd34b39dcbf9cafa6a47d3e878fe67f03">Fix typo on index.html</a></li>
+         <li>Oct 14 - <a href="https://github.com/luciotorelli/nature-one/commit/8ad4846e87a97a9eeb3360259082d2b98edb1173">Fix 405 error on live website after submitting order now form.</a></li>
+         <li>Oct 14 - <a href="https://github.com/luciotorelli/nature-one/commit/82fd92635f92214b9685d60bcd1ef8c0f50dfec6">Fix grammar on homepage and order now page</a></li>           
    </ul>
 </details>
 
@@ -284,6 +286,7 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
 
    * Rohit Code Institutor Mentor - I am very grateful for the guidance provided by Rohit and for pointing all the improvement opportunities of my project.
    * [@tvianna](https://github.com/tvianna) - My sister that provided feedback on the project and for sharing all extensions she uses on VScode.
+   * [@Neil Deignan](https://www.linkedin.com/in/neil-deignan-6b7270b2/) - My partner for spotting some last minute grammar issues on the website.
    * [@GaryS007](https://github.com/GaryS007) - My fellow student/colleague that provided feedback on the project and helped our study group keep going.
    * My study group for sharing the struggles/challenges and keeping each other progressing! ([@alexiiasantos](https://github.com/alexiiasantos), Bohdan, [@GaryS007](https://github.com/GaryS007), Ian, [@James-Fitz](https://github.com/James-Fitz), [@zemaciel](https://github.com/zemaciel), Thomas and Yanina)
    * [@WebDevSimplified](https://github.com/WebDevSimplified) for [this awesome tutorial on Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE) that I came back to multiple times during the project.
