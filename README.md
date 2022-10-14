@@ -43,7 +43,7 @@ Nature one is a subscription based service for building a personalized multivita
 
 ## User Stories
 
-- As a new user I would like to understand the business nature of the website on the very first section.
+- As a new user I would like to understand the business nature of the website in the very first section.
 - As a new or returning user I would like to easily access all existing pages within the website through the header.
 - As a customer ready to purchase I would like to quickly navigate to the order page.
 - As a hesitant customer I would like to have access to critical information such as shipping policy and product information to make an informed decision.
@@ -161,7 +161,7 @@ Nature one is a subscription based service for building a personalized multivita
    4.  Background color for form inputs.
    5.  Order confirmation page once submitting the form.
    6.  Replace scrollable image with fixed image on Apple mobile devices due to the OS limitation with the feature (Javascript required).
-   7.  Make only one of any 4 checkboxes on the order form required
+   7.  Make only one of any 4 checkboxes on the order form required (Javascript required).
 </details>
 
 ---
@@ -169,7 +169,7 @@ Nature one is a subscription based service for building a personalized multivita
 ## Technologies used
 
 - [HTML 5](https://en.wikipedia.org/wiki/HTML5) - The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
-- [CSS](https://www.w3schools.com/css/) - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+- [CSS3](https://www.w3schools.com/css/) - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
 - [Font Awesome](https://fontawesome.com/) - Font Awesome is a font and icon toolkit based on CSS and Less.
 - [Github and Git](https://docs.github.com/en/get-started/using-git/about-git) - GitHub, Inc., is an Internet hosting service for software development and version control using Git.
 
@@ -180,12 +180,29 @@ Nature one is a subscription based service for building a personalized multivita
 <details>
    <summary>8.1 Code validation</summary>
    <ul>
-      <li>The code for all pages were tested against <a href="https://validator.w3.org/">W3C Markup validation service.</a></li>
+      <li>The code for all pages was tested against <a href="https://validator.w3.org/">W3C Markup validation service.</a></li>
       <li>The code for the CSS file was tested against <a href="https://jigsaw.w3.org/css-validator/">W3C CSS validation service.</a></li>
       <li>All files were tested during development using the <a href="https://github.com/streetsidesoftware/vscode-spell-checker">Spelling checker for Visual Studio Code extension.</a> </li>
    </ul>
 </details>
-* 8.2 Test cases (User Feedback - Screenshots)
+
+<details>
+   <summary>8.2 Test cases</summary>
+
+   * A first time user was able to quickly understand the business purpose and how to navigate the website. The embedded video on the homepage is only played once the user clicks on it. The hoover animation is soft and consistent across the website. 
+   <img src="readme-assets/test-case-1-readme.jpg" alt="Wireframing for desktop home page" width="800px" />
+   * The shipping policy page is simple and easy to understand, the scrollable bar works as expected and the policy is readable in any screen.
+   <img src="readme-assets/test-case-2-readme.jpg" alt="Wireframing for desktop home page" width="800px" />
+   * The order now form will alert the user for any missing required field.
+   <img src="readme-assets/test-case-3-readme.jpg" alt="Wireframing for desktop home page" width="800px" />
+   * The order now form will create a pop-up alert once the user submits their information and all required fields are completed.
+   <img src="readme-assets/test-case-4-readme.jpg" alt="Wireframing for desktop home page" width="800px" />
+   * The page loaded fairly fast and passed with a good score on Lighthouse mobile test and desktop with local extensions disabled. 
+   <img src="readme-assets/test-case-5-readme.jpg" alt="Wireframing for desktop home page" width="800px" />      
+   * [Screen Reader extension was used to test accessibility of the project](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en), all links had an appropriate description, alerting the user when opening in a new screen as well as describing images.
+   * The Website is accessible and usable from most screen sizes while maintaining it's integrity and readability.
+</details>
+
 <details>
    <summary>8.3 Fixed Bugs</summary>
    <ul>
@@ -218,7 +235,17 @@ Nature one is a subscription based service for building a personalized multivita
 </details>
 
 <details>
-   <summary>8.4 Supported Screens and Browser</summary>
+   <summary>8.4 Unfixed Bugs</summary>
+
+   * The scrollable image doesn't work on IPhones due to an OS limitation, Javascript would be required for a workaround.
+   * Depending on the device rescaling settings, the how to order steps may overlap with the vitamin section.
+   * The video thumbnail isn't preloaded on IPhones due to an OS limitation, Javascript would be required for a workaround.
+   * Some devices displayed scaling issues that were not present on the ChromeDev emulator, fixes were issued for devices that were used during development.
+
+</details>
+
+<details>
+   <summary>8.5 Supported Screens and Browser</summary>
   
   - Screen sizes:
     - 320px — 480px: Mobile devices
@@ -229,7 +256,7 @@ Nature one is a subscription based service for building a personalized multivita
   - Browsers:
     - Chrome.
     - Firefox.
-    - Safari.
+    - Opera.
     - Microsoft Edge.
 
 </details>
@@ -282,3 +309,5 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
   * [Gitpod - Used in the initial part of the project until a local desktop environment was setup.](https://gitpod.io/workspaces)
   * [YouTube Music - Used to listen to hours of lofi song during the project development](https://music.youtube.com/)
   * [Am I responsive? - Used to create main image used on README](https://ui.dev/amiresponsive)
+  * [Google Fonts - Used to import Google font to the project](https://fonts.google.com/specimen/Open+Sans?query=open)
+  * [Screen Reader Chrome Extension - Used to test aria-label and accessability.](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
