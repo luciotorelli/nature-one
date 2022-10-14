@@ -314,4 +314,4 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
   * [YouTube Music - Used to listen to hours of lofi song during the project development](https://music.youtube.com/)
   * [Am I responsive? - Used to create main image used on README](https://ui.dev/amiresponsive)
   * [Google Fonts - Used to import Google font to the project](https://fonts.google.com/specimen/Open+Sans?query=open)
-  * [Screen Reader Chrome Extension - Used to test aria-label and accessability.](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
+  * [Screen Reader Chrome Extension - Used to test aria-label and accessability](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
