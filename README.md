@@ -17,7 +17,7 @@ Nature one is a subscription based service for building a personalized multivita
 1.  [Overview](https://github.com/luciotorelli/nature-one#overview)
 2.  [User Stories](https://github.com/luciotorelli/nature-one#user-stories)
 3.  [Site Owner Goals](https://github.com/luciotorelli/nature-one#site-owner-goals)
-4.  [Wireframes](https://github.com/luciotorelli/nature-one#wireframing)
+4.  [Wireframe](https://github.com/luciotorelli/nature-one#wireframe)
 5.  [Color Scheme and Typography](https://github.com/luciotorelli/nature-one#color-scheme-and-typography)
 6.  [Features](https://github.com/luciotorelli/nature-one#features)
     - [Features](https://github.com/luciotorelli/nature-one#features-1)
@@ -63,7 +63,7 @@ Nature one is a subscription based service for building a personalized multivita
 
 ---
 
-## Wireframing:
+## Wireframe
 
 
 <details>
@@ -265,7 +265,7 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
   * [Code Institute Full Stack - Course material, mentoring and tutoring](https://codeinstitute.net/ie/full-stack-software-development-diploma/)
   * [Stackoverflow - Having the answers to many of my questions](https://stackoverflow.com/)
   * [W3Schools - Used to check how to use certain CSS properties and HTML elements](https://www.w3schools.com/)
-  * [Balsamiq - Used to draw the wireframing of the project](https://balsamiq.com/)
+  * [Balsamiq - Used to draw the wireframes of the project](https://balsamiq.com/)
   * [W3C markup validation service](https://validator.w3.org/)
   * [Jigsaw CSS validation service](https://jigsaw.w3.org/css-validator/)
   * [Pexels - Used to get all images and videos used in the project](https://www.pexels.com/)
