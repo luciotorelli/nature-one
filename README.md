@@ -4,13 +4,12 @@
 
 ## Overview
 
----
-
 Nature one is a subscription based service for building a personalized multivitamin created from natural ingredients that is delivered to your door.
+
+---
 
 ## Table of Contents
 
----
 
 1.  [Overview](https://github.com/luciotorelli/nature-one#overview)
 2.  [User Stories](https://github.com/luciotorelli/nature-one#user-stories)
@@ -37,9 +36,9 @@ Nature one is a subscription based service for building a personalized multivita
 
 <br>
 
-## User Stories
-
 ---
+
+## User Stories
 
 - As a new user I would like to understand the business nature of the website on the very first section.
 - As a new or returning user I would like to easily access all existing pages within the website through the header.
@@ -48,9 +47,9 @@ Nature one is a subscription based service for building a personalized multivita
 
 <br>
 
-## Site Owner Goals:
-
 ---
+
+## Site Owner Goals:
 
 - Create a website for signing-up to a personalized multi-vitamin subscription service.
 - The website/business purpose is easily identifiable on the first page.
@@ -59,9 +58,10 @@ Nature one is a subscription based service for building a personalized multivita
 
 <br>
 
+---
+
 ## Wireframing:
 
----
 
 <details>
    <summary>Desktop</summary>
@@ -104,15 +104,16 @@ Nature one is a subscription based service for building a personalized multivita
 
 <br>
 
-## Color Scheme and Typography
 
 ---
+
+## Color Scheme and Typography
 
 <br>
 
 1. ### Color Scheme
 <br>
-<img src="color-scheme/color-scheme.webp" alt="Color scheme" width="800px" />
+<img src="readme-assets/color-scheme.webp" alt="Color scheme" width="800px" />
 
 - #597D5B and it's neighboring shades are used on the header/hero image as well as on complementary images and footer.
 - #CBAD6D is used as an accent color for buttons and to highlight certain objects such as the multivitamin on the hero image.
@@ -123,31 +124,47 @@ Nature one is a subscription based service for building a personalized multivita
 
 2. ### Typography
 
-   [Open Sans](https://fonts.google.com/specimen/Open+Sans) was the choice for this project due to the flexibility, neutrality and friendly appearence. It helps the website to display well in any screen or font size while staying modern and appealing.
+   [Open Sans](https://fonts.google.com/specimen/Open+Sans) was the choice for this project due to the flexibility, neutrality and friendly appearance. It helps the website to display well in any screen or font size while staying modern and appealing.
+
+---
 
 ## Features
+
+<br>
+
+<details>
+   <summary>Features</summary>
+     1.  Landing Page Header - The landing page header provides the clear purpose of the website, how to place an order and read about shipping and the product.
+      <img src="readme-assets/header-readme.jpg" alt="Color scheme" width="1000px" />
+     2.  The first section of the landing page is a breakdown of how the natural vitamins are created/extracted.
+      <img src="readme-assets/vitamins-readme.jpg" alt="Color scheme" width="1000px" />
+     3.  The second section provides the pros of hiring the service as well as a quick commercial about the company.
+      <img src="readme-assets/reasons-readme.jpg" alt="Color scheme" width="1000px" />
+     4.  The footer presents a Google maps Iframe with the company address, copyright notice, contact information and social media links.
+      <img src="readme-assets/footer-readme.jpg" alt="Color scheme" width="1000px" />
+     5.  Secondary pages are split into two easily identifiable sections, header and footer. The Shipping page has a notice about the shipping and a policy.
+      <img src="readme-assets/shipping-readme.jpg" alt="Color scheme" width="1000px" />
+     6.  The order now page presents a form for the user to place their order.
+      <img src="readme-assets/order-readme.jpg" alt="Color scheme" width="1000px" />
+     7.  Although planned for Mobile and Desktop, the website is also responsive on tablets.
+      <img src="readme-assets/tablet-readme.jpg" alt="Color scheme" width="1000px" />
+     8.  Links have descriptive aria-labels to help screen readers identify it's contents.
+</details>
+
+<details>
+   <summary>Future Features</summary>
+
+   1.  ~~If required, create a new layout for medium screens such as tablets.~~
+   2.  ~~Implement aria-label on links.~~
+   3.  Blinking animation on the Order Now! button
+   4.  Background color for form inputs.
+   5.  Order confirmation page once submitting the form.
+   6.  Replace scrollable image with fixed image on Apple mobile devices due to the OS limitation with the feature.
+</details>
 
 ---
 
 <br>
-
-- ### Features
-
-  1.  Landing Page - The landing page provides the clear purpose of the website, how to place an order and read about shipping or the product.
-  2.  The first section is a breakdown of how the natural vitamins are created/extracted.
-  3.  The second section provides the pros of hiring the service as well as a quick commercial about the company.
-  4.  The footer presents a copyright notice, contact information and social media links.
-  5.  Secondary pages are split into two easily identifiable sections, header and footer.
-  6.  The order now page presents a form for the user to place their order.
-  7.  Although planned for Mobile and Desktops, the website is also responsiveness on tablets.
-  8.  Links have descriptive aria-labels to help screen readers identify it's contents.
-
-- ### Future Features
-  1.  ~~If required, create a new layout for medium screens such as tablets.~~
-  2.  ~~Implement aria-label on links.~~
-  3.  Blinking animation on the Order Now! button
-  4.  Background color for form inputs.
-  5.  Order confirmation page once submitting the form.
 
 ## Technologies used
 
@@ -155,6 +172,8 @@ Nature one is a subscription based service for building a personalized multivita
 - [CSS](https://www.w3schools.com/css/) - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
 - [Font Awesome](https://fontawesome.com/) - Font Awesome is a font and icon toolkit based on CSS and Less.
 - [Github and Git](https://docs.github.com/en/get-started/using-git/about-git) - GitHub, Inc., is an Internet hosting service for software development and version control using Git.
+
+---
 
 ## Testing
 
@@ -215,23 +234,23 @@ Nature one is a subscription based service for building a personalized multivita
 
 </details>
 
+---
+
 <br>
 
 ## Deployment
 
----
-
 <br>
 
-## Credits
-
 ---
+
+## Credits
 
 ### Special Thanks!
 
    * Rohit Code Institutor Mentor - I am very grateful for the guidance provided by Rohit and for pointing all the improvement opportunities of my project.
    * [@GaryS007](https://github.com/GaryS007) - My fellow student/colleague that provided feedback on my project and helped our study group keep going.
-   * Big thanks to my study group for sharing our struggles/challenges and keeping each other progressing! (Alexia, Bohdan, Gary, Ian, James, Jose, Thomas and Yanina)
+   * Big thanks to my study group for sharing our struggles/challenges and keeping each other progressing! (Alexia, Bohdan, [@GaryS007](https://github.com/GaryS007), Ian, James, [@zemaciel](https://github.com/zemaciel), Thomas and Yanina)
    * [@WebDevSimplified](https://github.com/WebDevSimplified) for [this awesome tutorial on Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE) that I came back to multiple times during the project.
 
 ### Resources used
@@ -252,4 +271,5 @@ Nature one is a subscription based service for building a personalized multivita
   * [Can I Use - Used to test properties cross browser compatibility](https://caniuse.com/)
   * [Autoprefixer - Used to add properties for cross browser compatibility](https://autoprefixer.github.io/)
   * [VScode - Used to write the code for this project](https://code.visualstudio.com/)
+  * [Gitpod - Used in the initial part of the project until a local desktop environment was setup.](https://gitpod.io/workspaces)
   * [YouTube Music - Used to listen to hours of lofi song during the project development](https://music.youtube.com/)
